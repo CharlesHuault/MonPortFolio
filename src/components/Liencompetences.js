@@ -3,7 +3,7 @@ import React from 'react';
 const Liencompetences = () => {
     return (
         <div>
-            <h2><a href="#competences"/>COMPETENCES</h2>
+            <h3><a href="#competences"/>COMPETENCES</h3>
         </div>
     );
 };

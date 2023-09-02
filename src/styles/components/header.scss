@@ -3,7 +3,13 @@
     justify-content: center;
     background: rgba(255, 244, 232, 0.2) ;
     width: 100%;
+    height: 75px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    // overflow: hidden;
 }
+
 
 .FlagFr{
     position: absolute;
