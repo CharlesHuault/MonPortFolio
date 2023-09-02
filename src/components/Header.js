@@ -5,7 +5,10 @@ import '../styles/header.scss'
 const Header = () => {
     return (
         <div className='navprincipale'>
-            <Navigation/>
+            <Navigation />
+            <div className='FlagFr'>
+                <img src="../LogoFlagFr.svg" alt="Drapeau France" />
+            </div>
         </div>
     );
 };

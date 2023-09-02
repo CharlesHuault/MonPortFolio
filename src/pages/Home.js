@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from '../components/Header';
 import '../styles/home.scss'
+import Accueil from '../components/Accueil';
 
 const Home = () => {
     return (
-        <div>
-            <Header/>
+        <div className='Home'>
+            <Header />
+            <Accueil/>
         </div>
     );
 };

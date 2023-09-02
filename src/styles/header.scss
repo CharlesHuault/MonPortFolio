@@ -1,7 +1,12 @@
 .navprincipale {
     display: flex;
-    // align-items: center;
     justify-content: center;
     background: rgba(255, 244, 232, 0.2) ;
+}
 
+.FlagFr{
+    position: absolute;
+    margin-left: 96%;
+    margin-top: 20px;
+    margin-right: 20px;
 }
