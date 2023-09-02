@@ -4,7 +4,7 @@ import Liencompetences from './Liencompetences';
 import Lienprojets from './Lienprojets';
 import Lienapropos from './Lienapropos';
 import Liencontact from './Liencontact';
-import '../styles/navigation.scss'
+import '../styles/components/navigation.scss'
 
 const Navigation = () => {
     return (

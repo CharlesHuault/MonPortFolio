@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/maintitle.scss'
+import '../styles/components/maintitle.scss'
 
 const Maintitle = () => {
     return (
