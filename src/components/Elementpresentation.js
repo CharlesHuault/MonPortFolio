@@ -1,15 +1,15 @@
 import React from 'react';
 import Photo from './Photo';
-import '../styles/components/bodyelement.scss'
 import Monotext from './Monotext';
+import '../styles/components/elementpresentation.scss'
 
-const Bodyelement = () => {
+const Elementpresentation = () => {
     return (
-        <div className='bodyelement-container'>
+        <div className='elempresentation'>
             <Photo />
             <Monotext/>
         </div>
     );
 };
 
-export default Bodyelement;
+export default Elementpresentation;
