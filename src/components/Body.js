@@ -4,6 +4,8 @@ import '../styles/components/body.scss'
 import Elementpresentation from './Elementpresentation';
 import Elementcompetences from './Elementcompetences';
 import Elementprojets from './Elementprojets';
+import Elementapropos from './Elementapropos';
+import Elementcontact from './Elementcontact';
 
 const Body = () => {
     return (
@@ -26,7 +28,18 @@ const Body = () => {
                     <Elementprojets/>
                 </div>
             </div>
-
+            <div className='fourth-element'>
+                <Bodytitle title='A PROPOS' />
+                <div className='bodyelement-container'>
+                    <Elementapropos/>
+                </div>
+            </div>
+            <div className='fifth-element'>
+                <Bodytitle title='CONTACT' />
+                <div className='bodyelement-container'>
+                    <Elementcontact/>
+                </div>
+            </div>
         </div>
     );
 };
