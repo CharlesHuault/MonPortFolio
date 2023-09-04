@@ -1,9 +1,39 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import '../styles/components/formulaire.scss'
 
 const Formulaire = () => {
+
+    useEffect(() => {
+        // Sélectionnez tous les textarea avec la classe "auto-expand"
+        const textareas = document.querySelectorAll('textarea.auto-expand');
+
+        // Ajoutez un gestionnaire d'événements "input" à chaque textarea
+        textareas.forEach((textarea) => {
+            textarea.addEventListener('input', function () {
+                this.style.height = 'auto'; // Réinitialisez la hauteur à "auto" pour recalculer la hauteur réelle
+                this.style.height = this.scrollHeight + 'px'; // Ajustez la hauteur en fonction du contenu
+            });
+        });
+
+        // Nettoyez les gestionnaires d'événements lorsque le composant est démonté
+        return () => {
+            textareas.forEach((textarea) => {
+                textarea.removeEventListener('input', function () {
+                    this.style.height = 'auto';
+                    this.style.height = this.scrollHeight + 'px';
+                });
+            });
+        };
+    }, []);
+
     return (
-        <div>
-            
+        <div className='form-container'>
+            <h4>FORMULAIRE</h4>
+            <form action="" method="post">
+                <input type="text" name="Nom" id="Nom" placeholder='Nom' />
+                <input type="email" name="email" id="email" placeholder='Email' />              
+                <textarea className='auto-expand' rows="4" placeholder='Votre Message' />            
+            </form>
         </div>
     );
 };
