@@ -4,6 +4,7 @@ import '../styles/components/elementprojets.scss'
 import Modalbooki from './Modalbooki';
 import Modalsophie from './Modalsophie';
 import Modalqwenta from './Modalqwenta';
+import Modalnina from './Modalnina';
 
 
 const Elementprojets = () => {
@@ -84,6 +85,7 @@ const Elementprojets = () => {
                 <Modalbooki isOpen={isOpen && selectedCardId === 'Booki'} closeModal={closeModal} />
                 <Modalsophie isOpen={isOpen && selectedCardId === 'Sophie'} closeModal={closeModal} />
                 <Modalqwenta isOpen={isOpen && selectedCardId === 'Menu'} closeModal={closeModal} />
+                <Modalnina isOpen={isOpen && selectedCardId === 'Nina'} closeModal={closeModal} />
             </div>
             <div id='a-propos'></div>
     </div>
