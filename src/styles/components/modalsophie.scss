@@ -27,6 +27,10 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+
+            h2{
+                text-align: center;
+            }
         }
 
         .tech-container {
@@ -91,7 +95,7 @@
 
     .modal-body{
         display: flex;
-        margin-top: 15px;
+        margin-top: 30px;
         flex-direction: row;
 
         .sophie-homepage-container {

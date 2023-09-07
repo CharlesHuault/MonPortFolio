@@ -9,6 +9,7 @@
     background-color: #BBC3CE !important;
     scrollbar-width: thin;
     text-shadow: 1px 1px 2px  black;
+    border-radius: 25px !important;
 
     .modal-header{
         display: flex;
@@ -26,6 +27,11 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+
+            h2{
+                text-align: center;
+                margin-bottom: 50px;
+            }
         }
 
         .tech-container {
