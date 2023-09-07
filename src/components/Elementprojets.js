@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Card from './Card';
 import '../styles/components/elementprojets.scss'
 import Modalbooki from './Modalbooki';
+import Modalsophie from './Modalsophie';
 
 
 const Elementprojets = () => {
@@ -19,6 +20,7 @@ const Elementprojets = () => {
   };  
 
     return (
+        <div className='cards-list-container'>
         <div className='cards-list'>
             <Card
                 cover='./MaqDeskBooki.png'
@@ -78,8 +80,11 @@ const Elementprojets = () => {
                 Backend d'une application de notation <br /> de livres  pour une librairie
             </Card>
 
-            <Modalbooki isOpen={isOpen && selectedCardId === 'Booki'} closeModal={closeModal} />
-        </div>
+                <Modalbooki isOpen={isOpen && selectedCardId === 'Booki'} closeModal={closeModal} />
+                <Modalsophie isOpen={isOpen && selectedCardId === 'Sophie'} closeModal={closeModal} />
+            </div>
+            <div id='a-propos'></div>
+    </div>
     );
 };
 

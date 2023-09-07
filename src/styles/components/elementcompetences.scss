@@ -1,4 +1,18 @@
 .elemcompetences {
     display: flex;
     justify-content: space-between;
+    
+    #logoswagger{
+        width: 48px;
+    }
+    
+}
+
+.comp-container {
+    position: relative;
+
+    .ancre-projets {
+        position: absolute;
+        top: 85%;
+    }
 }

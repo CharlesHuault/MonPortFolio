@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Accueil from '../components/Accueil';
 import Body from '../components/Body';
 import '../styles/pages/home.scss'
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
@@ -11,7 +12,8 @@ const Home = () => {
                 <Header />
                 <Accueil />
             </div>
-            <Body/>
+            <Body />
+            <Footer/>
         </div>
     );
 };

@@ -17,15 +17,18 @@ const Elementcompetences = () => {
 
     const outilsData = {
         title: 'OUTILS',
-        logos: <div className='logos'><img src="./LogoGITHUB.svg" alt="Logo Github" /><img src="./LogoFIGMA.svg" alt="Logo Figma" /><img src="./LogoVSCODE.svg" alt="Logo VsCode" /><img src="./LogoNPM.svg" alt="Logo npm" /><img src="./LogoTRELLO.svg" alt="Logo Trello" /><img src="./LogoPOSTMAN.svg" alt="Logo Postman" /></div>,
-        textList: ['GitHub/Figma', 'Visual Studio Code/npm', 'Trello/Postman']
+        logos: <div className='logos'><img src="./LogoGITHUB.svg" alt="Logo Github" /><img src="./LogoFIGMA.svg" alt="Logo Figma" /><img src="./LogoVSCODE.svg" alt="Logo VsCode" /><img src="./LogoNPM.svg" alt="Logo npm" /><img src="./LogoTRELLO.svg" alt="Logo Trello" /><img src="./LogoPOSTMAN.svg" alt="Logo Postman" /><img src="./LogoSWAGGER.svg" alt="Logo Swagger" id='logoswagger'/></div>,
+        textList: ['GitHub/Figma', 'Visual Studio Code/npm', 'Trello/Postman/Swagger']
     }
 
     return (
-        <div className='elemcompetences'>
-            <Skillsblock {...frontendData} />
-            <Skillsblock {...backendData} />
-            <Skillsblock {...outilsData} />
+        <div className='comp-container'>
+            <div className='elemcompetences'>
+                <Skillsblock {...frontendData} />
+                <Skillsblock {...backendData} />
+                <Skillsblock {...outilsData} />
+            </div>
+            <div className='ancre-projets'id='projets'></div>
         </div>
     );
 };

@@ -7,7 +7,9 @@ const Accueil = () => {
     return (
         <div className='Accueil'>
             <Maintitle />
-            <Mainlinks/>
+            <Mainlinks />
+            <div className='ancre-presentation' id='presentation'>
+            </div>
         </div>
     );
 };

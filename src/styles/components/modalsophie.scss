@@ -2,24 +2,25 @@
     display: flex !important;
     align-items: center !important;
 }
-#modal-booki {
+#modal-sophie {
     width: 72%;
     margin-left: 10%;
     margin-top: 3%;
     background-color: #BBC3CE !important;
     scrollbar-width: thin;
     text-shadow: 1px 1px 2px  black;
+    border-radius: 25px !important;
 
     .modal-header{
         display: flex;
-        
-    
-        #Montagebooki {
+        align-items: center;
+
+        #Montagesophie {
             width: 60%;
-            height: auto;
+            height: 50%;
         }
 
-        .booki-text {
+        .sophie-text {
             width: 35%;
             margin-left: 25px;
             padding-right: 25px;
@@ -31,23 +32,29 @@
         .tech-container {
             display: flex;
             margin-top: 10px;
-            width: 35%;
+            width: 100%;
             justify-content: space-around;
 
             p {
               margin: 0;  
               text-align: center;
             }
+
+            #swaggersophie{
+                img{
+                width: 48px;
+            }
+            }
         }
 
-        .lienbooki-container{
+        .liensophie-container{
             display: flex;
             justify-content: center;
             margin-top: 8%;
 
-            #lienbooki {
+            #liensophie {
                 font-size: 18px;
-                width: 150px;
+                width: 230px;
                 height: 35px;
                 position: relative;
                 left: 0%;            
@@ -85,33 +92,41 @@
     .modal-body{
         display: flex;
         margin-top: 15px;
+        flex-direction: row;
 
-        .booki-desktop-tablette-container {
-            width: 60%;
+        .sophie-homepage-container {
+            width: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             text-align: center;
+            align-items: center;
 
             img {
-                margin-top: 40px;
+                margin-top: 20px;
                 margin-bottom: 20px;
-                width: 100%;
+                width: 90%;
                 border-radius: 5px;
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); 
             }
         }
 
-        .booki-mobile-container{
+        .sophie-login-modal-container{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            width: 40%;
+            width: 50%;
+            text-align: center;
 
+            .sophie-modal-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+            }
 
             img{
                 margin-top: 20px;
-                width: 50%;
+                width: 90%;
                 border-radius: 5px;
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); 
             }

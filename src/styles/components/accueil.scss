@@ -1,4 +1,11 @@
 .Accueil {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    position: relative;
+
+    .ancre-presentation {
+        position: absolute;
+        top: 90%;
+    }
 }

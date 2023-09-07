@@ -19,10 +19,13 @@ const Elementapropos = () => {
     }
 
     return (
-        <div className='elemapropos'>
-            <Skillsblock {...formationsData} />
-            <Skillsblock {...informationsData} />
-            <Skillsblock {...interetsData}/>
+        <div className='apropos-container'>
+            <div className='elemapropos'>
+                <Skillsblock {...formationsData} />
+                <Skillsblock {...informationsData} />
+                <Skillsblock {...interetsData}/>
+            </div>
+            <div id='contact'></div>
         </div>
     );
 };
