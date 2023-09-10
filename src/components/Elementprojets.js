@@ -1,10 +1,18 @@
 import React, {useState} from 'react';
 import Card from './Card';
 import '../styles/components/elementprojets.scss'
+import maqBooki from '../assets/img/MaqDeskBooki.png'
+import maqSophie from '../assets/img/MaqDeskSophie.png'
+import maqMenu from '../assets/img/MaqDeskMenu.png'
+import maqNina from '../assets/img/MaqDeskNina.png'
+import maqKasa from '../assets/img/MaqDeskKasa.png'
+import maqGrim from '../assets/img/MaqDeskGrim.png'
 import Modalbooki from './Modalbooki';
 import Modalsophie from './Modalsophie';
 import Modalqwenta from './Modalqwenta';
 import Modalnina from './Modalnina';
+import Modalkasa from './Modalkasa';
+import Modalgrim from './Modalgrim';
 
 
 const Elementprojets = () => {
@@ -25,7 +33,7 @@ const Elementprojets = () => {
         <div className='cards-list-container'>
         <div className='cards-list'>
             <Card
-                cover='./MaqDeskBooki.png'
+                cover={maqBooki}
                 id='Booki'
                 isOpen={isOpen && selectedCardId === 'Booki'}
                 openModal={() => openModal('Booki')}
@@ -34,7 +42,7 @@ const Elementprojets = () => {
             </Card>
             
             <Card
-                cover='./MaqDeskSophie.png'
+                cover={maqSophie}
                 id='Sophie'
                 isOpen={isOpen && selectedCardId === 'Sophie'}
                 openModal={() => openModal('Sophie')}
@@ -43,7 +51,7 @@ const Elementprojets = () => {
             </Card>
 
             <Card
-                cover='./MaqDeskMenu.png'
+                cover={maqMenu}
                 id='Menu'
                 isOpen={isOpen && selectedCardId === 'Menu'}
                 openModal={() => openModal('Menu')}
@@ -53,7 +61,7 @@ const Elementprojets = () => {
             </Card>
 
             <Card
-                cover='./MaqDeskNina.png'
+                cover={maqNina}
                 id='Nina'
                 isOpen={isOpen && selectedCardId === 'Nina'}
                 openModal={() => openModal('Nina')}
@@ -63,7 +71,7 @@ const Elementprojets = () => {
             </Card>
 
             <Card
-                cover='./MaqDeskKasa.png'
+                cover={maqKasa}
                 id='Kasa'
                 isOpen={isOpen && selectedCardId === 'Kasa'}
                 openModal={() => openModal('Kasa')}
@@ -73,7 +81,7 @@ const Elementprojets = () => {
             </Card>
 
             <Card
-                cover='./MaqDeskGrim.png'
+                cover={maqGrim}
                 id='Grim'
                 isOpen={isOpen && selectedCardId === 'Grim'}
                 openModal={() => openModal('Grim')}
@@ -86,6 +94,8 @@ const Elementprojets = () => {
                 <Modalsophie isOpen={isOpen && selectedCardId === 'Sophie'} closeModal={closeModal} />
                 <Modalqwenta isOpen={isOpen && selectedCardId === 'Menu'} closeModal={closeModal} />
                 <Modalnina isOpen={isOpen && selectedCardId === 'Nina'} closeModal={closeModal} />
+                <Modalkasa isOpen={isOpen && selectedCardId === 'Kasa'} closeModal={closeModal} />
+                <Modalgrim isOpen={isOpen && selectedCardId === 'Grim'} closeModal={closeModal} />
             </div>
             <div id='a-propos'></div>
     </div>

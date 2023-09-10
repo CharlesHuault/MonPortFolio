@@ -1,11 +1,9 @@
 .ReactModal__Overlay{
-    display: flex !important;
-    align-items: center !important;
+
 }
-#modal-booki {
-    width: 72%;
-    margin-left: 10%;
-    margin-top: 3%;
+#modal-booki {    
+    width: 80%;
+    margin: 3% auto;
     background-color: #BBC3CE !important;
     scrollbar-width: thin;
     text-shadow: 1px 1px 2px  black;

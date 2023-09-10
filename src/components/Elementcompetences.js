@@ -1,23 +1,38 @@
 import React from 'react';
 import Skillsblock from './Skillsblock';
 import '../styles/components/elementcompetences.scss'
+import logoHTML from "../assets/logos/LogoHTML.svg"
+import logoCSS from "../assets/logos/LogoCSS.svg"
+import logoJS from "../assets/logos/LogoJS.svg"
+import logoREACT from "../assets/logos/LogoREACT.svg"
+import logoNODE from "../assets/logos/LogoNODE.svg"
+import logoMONGODB from "../assets/logos/LogoMONGODB.svg"
+import logoEXPRESS from "../assets/logos/LogoEXPRESS.svg"
+import logoGITHUB from "../assets/logos/LogoGITHUB.svg"
+import logoFIGMA from "../assets/logos/LogoFIGMA.svg"
+import logoVSCODE from "../assets/logos/LogoVSCODE.svg"
+import logoNPM from "../assets/logos/LogoNPM.svg"
+import logoTRELLO from "../assets/logos/LogoTRELLO.svg"
+import logoPOSTMAN from "../assets/logos/LogoPOSTMAN.svg"
+import logoSWAGGER from "../assets/logos/LogoSWAGGER.svg"
+
 
 const Elementcompetences = () => {
     const frontendData = {
         title: 'FRONTEND',
-        logos: <div className='logos'><img src="./LogoHTML.svg" alt="Logo HTML" /><img src="./LogoCSS.svg" alt="Logo CSS" /><img src="./LogoJS.svg" alt="Logo Javascript" /><img src="./LogoREACT.svg" alt="Logo ReactJS" /></div>,
+        logos: <div className='logos'><img src={logoHTML} alt="Logo HTML" /><img src={logoCSS} alt="Logo CSS" /><img src={logoJS} alt="Logo Javascript" /><img src={logoREACT} alt="Logo ReactJS" /></div>,
         textList: ['HTML/CSS', 'JavaScript', 'ReactJS']
     }
 
     const backendData = {
         title: 'BACKEND',
-        logos: <div className='logos'><img src="./LogoNODE.svg" alt="Logo NodeJs" /><img src="./LogoMONGODB.svg" alt="Logo MongoDB" /><img src="./LogoEXPRESS.svg" alt="Logo ExpressJS" /></div>,
+        logos: <div className='logos'><img src={logoNODE} alt="Logo NodeJs" /><img src={logoMONGODB} alt="Logo MongoDB" /><img src={logoEXPRESS}  alt="Logo ExpressJS" /></div>,
         textList: ['NodeJs', 'MongoDB', 'ExpressJS']
     }
 
     const outilsData = {
         title: 'OUTILS',
-        logos: <div className='logos'><img src="./LogoGITHUB.svg" alt="Logo Github" /><img src="./LogoFIGMA.svg" alt="Logo Figma" /><img src="./LogoVSCODE.svg" alt="Logo VsCode" /><img src="./LogoNPM.svg" alt="Logo npm" /><img src="./LogoTRELLO.svg" alt="Logo Trello" /><img src="./LogoPOSTMAN.svg" alt="Logo Postman" /><img src="./LogoSWAGGER.svg" alt="Logo Swagger" id='logoswagger'/></div>,
+        logos: <div className='logos'><img src={logoGITHUB} alt="Logo Github" /><img src={logoFIGMA} alt="Logo Figma" /><img src={logoVSCODE} alt="Logo VsCode" /><img src={logoNPM} alt="Logo npm" /><img src={logoTRELLO} alt="Logo Trello" /><img src={logoPOSTMAN} alt="Logo Postman" /><img src={logoSWAGGER} alt="Logo Swagger" id='logoswagger'/></div>,
         textList: ['GitHub/Figma', 'Visual Studio Code/npm', 'Trello/Postman/Swagger']
     }
 

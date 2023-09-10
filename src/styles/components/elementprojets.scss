@@ -1,5 +1,6 @@
 .cards-list-container {
     position: relative;
+    height: 1600px;
 
     #a-propos {
         position: absolute;
@@ -11,4 +12,5 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 100%;
 }
