@@ -25,8 +25,8 @@ const Modalnina = ({ isOpen, closeModal }) => {
             <div id='wavenina'><img src={waveNina} alt="Logo Wave" /><p>Wave</p></div>
             </div>
                 <div className='liennina-container'>
-                    <a href="https://charleshuault.github.io/Nina-Carducci/" target="_blank"><button id='liensitenina'>Visitez le site optimisé</button></a>
-                    <a href="https://github.com/CharlesHuault/Nina-Carducci" target="_blank"><button id='liengithubnina'>Voir le repositery Github</button></a>                     
+                    <a href="https://charleshuault.github.io/Nina-Carducci/" target="_blank" rel="noopener noreferrer"><button id='liensitenina'>Visitez le site optimisé</button></a>
+                    <a href="https://github.com/CharlesHuault/Nina-Carducci" target="_blank" rel="noopener noreferrer"><button id='liengithubnina'>Voir le repositery Github</button></a>                     
             </div>        
           </div>
             <button onClick={closeModal}><FontAwesomeIcon icon={faTimes} id='close-icon' /></button>
