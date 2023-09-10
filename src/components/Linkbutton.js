@@ -5,7 +5,7 @@ import logoGithub1 from '../assets/logos/github1.svg'
 const Linkbutton = ({title, hasLogo, url, anchor}) => {
   if (url) {
     return (
-      <a href={url} className='Accueilbutton'>
+      <a href={url} className='Accueilbutton' target="_blank" rel="noopener noreferrer">
         <div className='button-data'>
           <div className='button-logo'>{hasLogo && <img src={logoGithub1} alt='Logo Github' />}</div>
           <div className={`button-title${hasLogo ? ' has-logo-margin' : ''}`}>{title}</div>
@@ -23,7 +23,7 @@ const Linkbutton = ({title, hasLogo, url, anchor}) => {
     );
   } else {
     return (
-      <button className='Accueilbutton'>
+      <button className='Accueilbutton' target="_blank" rel="noopener noreferrer">
         <div className='button-data'>
           <div className='button-logo'>{hasLogo && <img src={logoGithub1} alt='Logo Github' />}</div>
           <div className={`button-title${hasLogo ? ' has-logo-margin' : ''}`}>{title}</div>

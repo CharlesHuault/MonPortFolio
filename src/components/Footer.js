@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/footer.scss'
-import logoTel from '../assets/logos/LogoTEL.svg'
 import logoMail from '../assets/logos/LogoMAILfooter.svg'
+import logoTel from '../assets/logos/LogoTEL.svg'
 
 const Footer = () => {
     return (

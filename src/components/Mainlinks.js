@@ -7,8 +7,8 @@ const Mainlinks = () => {
     return (
         <div className='mainlinks'>
             <Linkbutton title='Contact' anchor="contact"/>
-            <Linkbutton title='Mon CV' url={cv} target="_blank"/>
-            <Linkbutton title='GitHub' hasLogo={true} url="https://github.com/CharlesHuault"/>
+            <Linkbutton title='Mon CV' url={cv}  type="application/pdf"/>
+            <Linkbutton title='GitHub' hasLogo={true} url="https://github.com/CharlesHuault" rel="noopener noreferrer"/>
         </div>
     );
 };

@@ -28,7 +28,7 @@ const Modalkasa = ({isOpen, closeModal}) => {
 
             </div>
             <div className='lienkasa-container'>
-              <a href="https://github.com/CharlesHuault/Kasa" target="_blank"><button id='lienkasa'>Voir le repositery Github</button></a>
+              <a href="https://github.com/CharlesHuault/Kasa" target="_blank" rel="noopener noreferrer"><button id='lienkasa'>Voir le repositery Github</button></a>
             </div>
           </div>
             <button onClick={closeModal}><FontAwesomeIcon icon={faTimes} id='close-icon' /></button>

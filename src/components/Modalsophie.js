@@ -39,7 +39,7 @@ const Modalsophie = ({ isOpen, closeModal }) => {
             <div id='swaggersophie'><img src={swaggerSophie} alt="Logo Swagger" /><p>Swagger</p></div>
             </div>
             <div className='liensophie-container'>
-              <a href="https://github.com/CharlesHuault/Architecte-Sophie-Bluel" target="_blank"><button id='liensophie'>Voir le repositery Github</button></a>
+              <a href="https://github.com/CharlesHuault/Architecte-Sophie-Bluel" target="_blank" rel="noopener noreferrer"><button id='liensophie'>Voir le repositery Github</button></a>
             </div>
           </div>
             <button onClick={closeModal}><FontAwesomeIcon icon={faTimes} id='close-icon' /></button>
