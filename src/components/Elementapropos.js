@@ -10,7 +10,7 @@ const Elementapropos = () => {
 
     const informationsData = {
         title: 'INFORMATIONS COMPLEMENTAIRES',
-        textList: ['Ville: Artigues-près-Bordeaux', 'Langues: Français(Maternelle), Anglais(Courant)', 'Permis B']
+        textList: ['Ville: Artigues-près-Bordeaux', 'Langues: Français(Maternelle), Anglais(Courant)', 'Permis A et B']
     }
 
     const interetsData = {

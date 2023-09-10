@@ -1,0 +1,25 @@
+{
+    "common": {
+        "translate-button": "EN",
+        "translated-text": "This is english"
+    },
+
+    "accueil": {
+        "title": "Charles Huault - Frontend Developper",
+        "cv-button": "My Resume"
+    },
+
+    "about": {
+        "education": "EDUCATION",
+        "openclassrooms": "Web Integrator Developper (Associate’s-level diploma (European Level 5), OpenClassrooms, 2023)",
+        "BAC": "Highschool diploma, serie S (2007)",
+        "infos": "FURTHER INFORMATIONS",
+        "town": "City: Artigues-près-Bordeaux",
+        "languages": "Languages: French(Native), English(Fluent)",
+        "driving": "Driving Licence Category A and B",
+        "hobbies": "HOBBIES",
+        "miniatures": "Modelling",
+        "reading": "Reading",
+        "games": "Video Games"
+    }
+}

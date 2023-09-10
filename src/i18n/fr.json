@@ -1,0 +1,25 @@
+{
+    "common": {
+        "translate-button": "FR",
+        "translated-text": "C'est du français"
+    },
+
+    "accueil": {
+        "title": "Charles Huault - Développeur Frontend",
+        "cv-button": "Mon CV"
+    },
+
+    "about": {
+        "education": "FORMATIONS",
+        "openclassrooms": "Développeur Intégrateur Web (BAC +2, OpenClassrooms, 2023)",
+        "BAC": "BAC Général S (2007)",
+        "infos": "INFORMATIONS COMPLEMENTAIRES",
+        "town": "Ville: Artigues-près-Bordeaux",
+        "languages": "Langues: Français(Maternelle), Anglais(Courant)",
+        "driving": "Permis A et B",
+        "hobbies": "CENTRES D'INTERETS",
+        "miniatures": "Modélisme",
+        "reading": "Lecture",
+        "games": "Jeux Vidéos"
+    }
+}
