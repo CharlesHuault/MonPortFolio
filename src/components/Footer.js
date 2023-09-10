@@ -1,10 +1,17 @@
 import React from 'react';
 import '../styles/components/footer.scss'
+import logoTel from '../assets/logos/LogoTEL.svg'
+import logoMail from '../assets/logos/LogoMAILfooter.svg'
 
 const Footer = () => {
     return (
         <div className='footer'>
-            <p>Footer</p>
+            <div className='logo-footer'>
+                <a href="mailto:chuault@gmail.com"><img src={logoMail} alt="Logo Enveloppe Mail" /></a>
+                <a href="tel:+33661426129"><img src={logoTel} alt="Logo Téléphone" /></a>
+            </div>
+
+            Réalisé en ReactJs par Charles Huault
         </div>
     );
 };
