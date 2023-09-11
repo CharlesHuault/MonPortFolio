@@ -1,10 +1,12 @@
 import React from 'react';
 import '../styles/components/maintitle.scss'
+import { useTranslation } from 'react-i18next';
 
 const Maintitle = () => {
+    const { t } = useTranslation();
     return (
         <div>
-            <h1>Charles Huault - Développeur Frontend</h1>
+            <h1>{t('accueil.title')}</h1>
         </div>
     );
 };

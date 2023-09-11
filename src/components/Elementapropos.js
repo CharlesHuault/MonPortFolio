@@ -1,10 +1,12 @@
 import React from 'react';
 import Skillsblock from './Skillsblock';
 import '../styles/components/elementapropos.scss'
+import { useTranslation } from 'react-i18next';
 
 const Elementapropos = () => {
+    const { t } = useTranslation();
     const formationsData = {
-        title: 'FORMATIONS',
+        title: t('about.education'),
         textList: ['Développeur Intégrateur Web (BAC +2, OpenClassrooms, 2023)', 'BAC Général S (2007)']
     }
 

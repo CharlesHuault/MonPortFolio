@@ -21,5 +21,13 @@
         "miniatures": "Modelling",
         "reading": "Reading",
         "games": "Video Games"
+    },
+
+    "bodytitles": {
+        "presentation": "PRESENTATION",
+        "skills": "SKILLS",
+        "projects": "PROJECTS",
+        "about": "ABOUT",
+        "contact": "CONTACT"
     }
 }
