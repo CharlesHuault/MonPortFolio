@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Card from './Card';
 import '../styles/components/elementprojets.scss'
+import { useTranslation } from 'react-i18next';
 import maqBooki from '../assets/img/MaqDeskBooki.png'
 import maqSophie from '../assets/img/MaqDeskSophie.png'
 import maqMenu from '../assets/img/MaqDeskMenu.png'
@@ -16,8 +17,11 @@ import Modalgrim from './Modalgrim';
 
 
 const Elementprojets = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedCardId, setSelectedCardId] = useState(null);
+    const [isOpen, setIsOpen] = useState(false);    
+    const [selectedCardId, setSelectedCardId] = useState(null);    
+    const { t } = useTranslation();
+    
+
 
   const openModal = (cardId) => {
     setIsOpen(true);
@@ -38,7 +42,7 @@ const Elementprojets = () => {
                 isOpen={isOpen && selectedCardId === 'Booki'}
                 openModal={() => openModal('Booki')}
                 closeModal={closeModal}>
-                Frontend basique de l'application <br /> d'une agence de voyage
+                    {t('projectsblock.booki1')} <br /> {t('projectsblock.booki2')}
             </Card>
             
             <Card
@@ -47,7 +51,7 @@ const Elementprojets = () => {
                 isOpen={isOpen && selectedCardId === 'Sophie'}
                 openModal={() => openModal('Sophie')}
                 closeModal={closeModal}>
-                Frontend dynamique d'un portfolio d'architecte
+                {t('projectsblock.sophie')}
             </Card>
 
             <Card
@@ -57,7 +61,7 @@ const Elementprojets = () => {
                 openModal={() => openModal('Menu')}
                 closeModal={closeModal}
             >
-                Simulation de gestion de projet d'une application <br /> de menus pour des restaurants
+                {t('projectsblock.menu1')} <br /> {t('projectsblock.menu2')}
             </Card>
 
             <Card
@@ -67,7 +71,7 @@ const Elementprojets = () => {
                 openModal={() => openModal('Nina')}
                 closeModal={closeModal}
             >
-                Optimisation technique SEO et débuggage <br /> d'un portfolio de photographe
+                {t('projectsblock.nina1')} <br /> {t('projectsblock.nina2')}
             </Card>
 
             <Card
@@ -77,7 +81,7 @@ const Elementprojets = () => {
                 openModal={() => openModal('Kasa')}
                 closeModal={closeModal}
             >
-                Création de l'application ReactJs <br /> d'une agence de location immobilière
+                {t('projectsblock.kasa1')} <br /> {t('projectsblock.kasa2')}
             </Card>
 
             <Card
@@ -87,7 +91,7 @@ const Elementprojets = () => {
                 openModal={() => openModal('Grim')}
                 closeModal={closeModal}
             >
-                Backend d'une application de notation <br /> de livres  pour une librairie
+                {t('projectsblock.grim1')} <br /> {t('projectsblock.grim2')}
             </Card>
 
                 <Modalbooki isOpen={isOpen && selectedCardId === 'Booki'} closeModal={closeModal} />

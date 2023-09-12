@@ -3,6 +3,14 @@
         "title": "Charles Huault - Développeur Frontend",
         "cv-button": "Mon CV"
     },
+    
+    "bodytitles": {
+        "presentation": "PRÉSENTATION",
+        "skills": "COMPÉTENCES",
+        "projects": "PROJETS",
+        "about": "À PROPOS",
+        "contact": "CONTACT"
+    },
 
     "about": {
         "education": "FORMATIONS",
@@ -16,14 +24,131 @@
         "miniatures": "Modélisme",
         "reading": "Lecture",
         "games": "Jeux Vidéos"
+    },    
+
+    "skillsblock": {
+        "tools": "OUTILS"
     },
 
-    "bodytitles": {
-        "presentation": "PRÉSENTATION",
-        "skills": "COMPÉTENCES",
-        "projects": "PROJETS",
-        "about": "À PROPOS",
-        "contact": "CONTACT"
+    "projectsblock": {
+        "booki1": "Frontend basique de l'application",
+        "booki2": "d'une agence de voyage",
+        "sophie": "Frontend dynamique d'un portfolio d'architecte",
+        "menu1": "Simulation de gestion de projet d'une application",
+        "menu2": "de menus pour des restaurants",
+        "nina1": "Optimisation technique SEO et débuggage",
+        "nina2": "d'un portfolio de photographe",
+        "kasa1": "Création de l'application ReactJs",
+        "kasa2": "d'une agence de location immobilière",
+        "grim1": "Backend d'une application de notation",
+        "grim2": "de livres  pour une librairie"
+    },
+
+    "footer": {
+        "text": "Réalisé en ReactJs par Charles Huault"
+    },
+
+    "form": {
+        "name": "Nom",
+        "text": "Votre Message"
+    },
+
+    "social": {
+        "medias": "MES RÉSEAUX"
+    },
+
+    "mainlinks": {
+        "cv": "Mon CV"
+    },
+    
+    "bookimodal": {
+        "title": "Frontend du site 'Booki'",
+        "year": "Année:",
+        "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
+        "text2": "Développement du Frontend responsive d'un site de location d'hébergements de vacances",
+        "tech": "Technologies utilisées:",
+        "link": "Visitez le site",
+        "img1": "Version desktop",
+        "img2": "Version Tablette",
+        "img3": "Version Mobile"
+    },
+    
+    "grimmodal":{
+        "title": "Backend de l'application Mon Vieux Grimoire",
+        "year": "Année:",
+        "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
+        "text2": "Création du backend d'une application de notations de livres.",
+        "text3": ">Mise en place d'une base de données pour stocker les identifiants des usagers et les données qu'ils peuvent poster: l'ajout d'un livre et ses informations et la possibilité de noter un :livre posté par un autre utilisateur.",
+        "text4": "Création de l'API communiquant entre la base de données créée et l'application frontend fournie pour le projet",
+        "tech": "Technologies utilisées:",
+        "link": "Voir le repositery Github",
+        "img1": "Page d'accueil affichant tous les livres ajoutés par les utilisateurs",
+        "img2": "Page affichant un livre en particulier ajouté par un utilisateur",
+        "img3": "Page avec le formulaire permettant à un utilisateur de créer un nouveau livre",
+        "img4": "Page permettant de créer un compte utilisateur ou se connecter si on en possède déjà un"
+    },
+    
+    "kasamodal":{
+        "title": "Frontend en ReactJs pour Kasa, application de location de logements",
+        "year": "Année:",
+        "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
+        "text2": "Développement de l'application en ReactJs pour Kasa, site de location de logements entre particuliers",
+        "text3": "Le contenu est intégré dynamiquement à partir d'un fichier JSON contenant une liste de données pour tous les logements",
+        "text4": "Le style contient des animations et est écrit en Sass",
+        "tech": "Technologies utilisées:",
+        "link": "Voir le repositery Github",
+        "img1": "Page d'accueil",
+        "img2": "Page d'un logement",
+        "img3": "Page A propos"
+    },
+    
+    "ninamodal":{
+        "title": "Débuggage et optimisation SEO d'un portfolio de photographe",
+        "year": "Année:",
+        "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
+        "text2": "L'objectif de ce projet est de découvrir le concept du SEO et apprendre à en maîtriser les bases mais surtout à appliquer les modifications nécessaires à son amélioration au niveau technique",
+        "tech": "Technologies utilisées:",
+        "link1": "Visitez le site optimisé",
+        "link2": "Voir le repositery Github",
+        "img1": "Rapport Lighthouse après optimisations",
+        "img2": "Rapport Wave avant et après optimisations"
+    },
+    
+    "qwentamodal":{
+        "title": "Gestion de projet pour MenuMaker",
+        "year": "Année:",
+        "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
+        "text2": "Simulation de gestion de projet dans la création d'une application appelée MenuMaker ",
+        "text3": "L'objectif de ce projet est d'avoir une première prise en main des méthodes, documents et outils de gestion de projet afin de se familiariser avec ces éléments",
+        "tech": "Technologies utilisées:",
+        "img1": "Outil de gestion de projet Trello",
+        "img2": "Outil de veille Wakelet",
+        "img3": "Document de spécifications techniques"
+    },
+    
+    "sophiemodal":{
+        "title": "Frontend du portfolio de Sophie Bluel, Architecte d'intérieur",
+        "year": "Année:",
+        "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
+        "text2": "Développement de la page de connexion 'from scratch' et de l'aspect dynamique d'un portfolio d'architecte d'intérieur en lien avec l'API fournie pour le projet.",
+        "text3": "L'objectif était triple:",
+        "text4": "Afficher tous les projets correspondants aux données de l'API de manière dynamique sur la page d'accueil",
+        "text5": "Pouvoir se connecter en tant qu'administrateur avec les identifiants correspondants dans l'API",
+        "text6": "Créer une modale permettant en tant qu'administrateur d'ajouter et supprimer des éléments de projets dans l'API",
+        "tech": "Technologies utilisées:",
+        "link1": "Voir le repositery Github",
+        "img1": "Page d'accueil",
+        "img2": "Page de Connexion",
+        "img3": "Modale d'ajout de projet"
+    },
+
+    "monotext" :{
+        "age" : "33 ans",
+        "text1": "Ayant toujours été passionné par la tech et le domaine du web,",
+        "text2": "j’ai décidé, après 15 ans de restauration, de me former au métier de développeur.",
+        "text3": "Dynamique, curieux et perfectionniste, j’ai hâte de mettre en application ",
+        "text4": "les compétences acquises aujourd’hui et en apprendre de nouvelles",
+        "text5": " dans un cadre professionnel"
     }
 
 

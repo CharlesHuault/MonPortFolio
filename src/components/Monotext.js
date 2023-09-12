@@ -1,16 +1,18 @@
 import React from 'react';
 import '../styles/components/monotext.scss'
+import { useTranslation } from 'react-i18next';
 
 const Monotext = () => {
+    const { t } = useTranslation();
     return (
         <div className='texte-presentation'>
             <div>
                 <p>Charles Huault</p>
-                <p>33 ans</p>
+                <p>{t('monotext.age')}</p>
             </div>
             <div>
-                <p>Ayant toujours été passionné par la tech et le domaine du web,<br /> j’ai décidé, après 15 ans de restauration, de me former au métier de développeur.</p>
-                <p >Dynamique, curieux et perfectionniste, j’ai hâte de mettre en application <br /> les compétences acquises aujourd’hui et en apprendre de nouvelles <br /> dans un cadre professionnel</p>
+                <p>{t('monotext.text1')}<br /> {t('monotext.text2')}</p>
+                <p >{t('monotext.text3')}<br />{t('monotext.text4')}<br />{t('monotext.text5')}</p>
             </div>
             <div id="competences"></div>
         </div>

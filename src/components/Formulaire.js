@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
 import '../styles/components/formulaire.scss'
+import { useTranslation } from 'react-i18next';
 
 const Formulaire = () => {
-
+    const { t } = useTranslation();    
     useEffect(() => {
         // Sélectionnez tous les textarea avec la classe "auto-expand"
         const textareas = document.querySelectorAll('textarea.auto-expand');
@@ -30,9 +31,9 @@ const Formulaire = () => {
         <div className='form-container'>
             <h4>FORMULAIRE</h4>
             <form action="" method="post">
-                <input type="text" name="Nom" id="Nom" placeholder='Nom' />
+                <input type="text" name="Nom" id="Nom" placeholder={t('form.name')} />
                 <input type="email" name="email" id="email" placeholder='Email' />              
-                <textarea className='auto-expand' rows="4" placeholder='Votre Message' />            
+                <textarea className='auto-expand' rows="4" placeholder={t('form.text')} />            
             </form>
         </div>
     );

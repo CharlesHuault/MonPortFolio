@@ -1,9 +1,11 @@
 import React from 'react';
 import '../styles/components/footer.scss'
+import { useTranslation } from 'react-i18next';
 import logoMail from '../assets/logos/LogoMAILfooter.svg'
 import logoTel from '../assets/logos/LogoTEL.svg'
 
 const Footer = () => {
+    const { t } = useTranslation();
     return (
         <div className='footer'>
             <div className='logo-footer'>
@@ -11,7 +13,7 @@ const Footer = () => {
                 <a href="tel:+33661426129"><img src={logoTel} alt="Logo Téléphone" /></a>
             </div>
 
-            Réalisé en ReactJs par Charles Huault
+            {t('footer.text')}
         </div>
     );
 };

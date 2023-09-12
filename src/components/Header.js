@@ -4,29 +4,11 @@ import Navigation from './Navigation';
 import '../styles/components/header.scss';
 import logoFR from '../assets/logos/LogoFlagFr.svg';
 import logoUK from '../assets/logos/LogoFlagUk.svg';
-import {Language} from '../Language.ts'
 
 const Header = () => {
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const currentLanguage = i18n.language;
-//  const changeLanguage = (lng) => {i18n.changeLanguage(lng);};
-
-//   return (
-//     <div className="App">
-//       <div className="App-header">
-//         <button type="button" onClick={() => changeLanguage('fr')}>
-//           fr
-//         </button>
-//         <button type="button" onClick={() => changeLanguage('en')}>
-//           en
-//         </button>
-//       </div>
-
-//       <div>{t('accueil.title')}</div>
-//     </div>
-//   );
-// }
 
     const changeLanguage = (language) => {
         i18n.changeLanguage(language);

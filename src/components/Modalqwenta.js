@@ -3,6 +3,7 @@ import ReactModal from 'react-modal';
 import '../styles/components/modalqwenta.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
 import montageQwenta from '../assets/img/montageqwenta.png'
 import trelloQwenta from '../assets/logos/LogoTRELLO.svg'
 import wakeletQwenta from '../assets/logos/LogoWAKELET.svg'
@@ -12,15 +13,16 @@ import screenWakelet from '../assets/img/screenwakelet.png'
 import screenSpeTech from '../assets/img/screenspetechniques.png'
 
 const Modalqwenta = ({ isOpen, closeModal }) => {
+  const { t } = useTranslation() ;
     return (
      <ReactModal id='modal-qwenta'isOpen={isOpen} onRequestClose={closeModal}>
         <div className='modal-header'>
         <img src={montageQwenta} alt="montage qwenta" id='Montageqwenta'/>
           <div className='qwenta-text'>
-            <h2>Gestion de projet pour MenuMaker</h2>
-            <p><strong>Année:</strong>2023</p>
-            <p><strong>Mission:</strong><br />Projet réalisé dans le cadre de la formation Openclassrooms "Développeur intégrateur web"<br />Simulation de gestion de projet dans la création d'une application appelée MenuMaker <br />L'objectif de ce projet est d'avoir une première prise en main des méthodes, documents et outils de gestion de projet afin de se familiariser avec ces éléments</p>
-            <h3>Technologies utilisées:</h3>
+            <h2>{t('qwentamodal.title')}</h2>
+            <p><strong>{t('qwentamodal.year')}</strong>2023</p>
+            <p><strong>Mission:</strong><br />{t('qwentamodal.text1')}<br />{t('qwentamodal.text2')}<br />{t('qwentamodal.text3')}</p>
+            <h3>{t('qwentamodal.tech')}</h3>
           <div className='tech-container'>
             <div id='trellomenu'><img src={trelloQwenta} alt="Logo Trello" /><p>Trello</p></div>
             <div id='figmamenu'><img src={figmaQwenta} alt="Logo Figma" /><p>Figma</p></div>
@@ -30,11 +32,11 @@ const Modalqwenta = ({ isOpen, closeModal }) => {
             <button onClick={closeModal}><FontAwesomeIcon icon={faTimes} id='close-icon' /></button>
         </div>
       <div className='modal-body'>         
-            <h4>Outil de gestion de projet Trello</h4>
+            <h4>{t('qwentamodal.img1')}</h4>
             <img src={screenTrello} alt="Screenshot Trello" id='screentrello' />
-            <h4>Outil de veille Wakelet</h4>
+            <h4>{t('qwentamodal.img2')}</h4>
             <img src={screenWakelet} alt="Screenshot Wakelet" id='screenwakelet' />
-            <h4>Document de spécifications techniques</h4>
+            <h4>{t('qwentamodal.img3')}</h4>
             <img src={screenSpeTech} alt="Screenshot spécifications" id='screenspetechniques' />
       </div>
     </ReactModal>

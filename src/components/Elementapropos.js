@@ -7,17 +7,17 @@ const Elementapropos = () => {
     const { t } = useTranslation();
     const formationsData = {
         title: t('about.education'),
-        textList: ['Développeur Intégrateur Web (BAC +2, OpenClassrooms, 2023)', 'BAC Général S (2007)']
+        textList: [t('about.openclassrooms'), t('about.BAC')]
     }
 
     const informationsData = {
-        title: 'INFORMATIONS COMPLEMENTAIRES',
-        textList: ['Ville: Artigues-près-Bordeaux', 'Langues: Français(Maternelle), Anglais(Courant)', 'Permis A et B']
+        title: t('about.infos'),
+        textList: [t('about.town'), t('about.languages'), t('about.driving')]
     }
 
     const interetsData = {
-        title: "CENTRES D'INTERETS",
-        textList: ['Modélisme', 'Lecture', 'Jeux Vidéos']
+        title: t('about.hobbies'),
+        textList: [t('about.miniatures'), t('about.reading'), t('about.games')]
     }
 
     return (

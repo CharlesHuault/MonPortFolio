@@ -3,6 +3,7 @@ import ReactModal from 'react-modal';
 import '../styles/components/modalsophie.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
 import montageSophie from '../assets/img/montagepaintsophie.png'
 import htmlSophie from '../assets/logos/LogoHTML.svg'
 import cssSophie from '../assets/logos/LogoCSS.svg'
@@ -16,46 +17,47 @@ import maqModal1 from '../assets/img/Maquette-modale-1-sophie.png'
 import maqModal2 from '../assets/img/Maquette-modale-2-sophie.png'
 
 const Modalsophie = ({ isOpen, closeModal }) => {
+  const { t } = useTranslation();
     return (
         <ReactModal id='modal-sophie'isOpen={isOpen} onRequestClose={closeModal}>
         <div className='modal-header'>
         <img src={montageSophie} alt="montage sophie" id='Montagesophie'/>
           <div className='sophie-text'>
-            <h2>Frontend du portfolio de Sophie Bluel, Architecte d'intérieur</h2>
-            <p><strong>Année:</strong>2023</p>
-                    <p><strong>Mission:</strong><br />Projet réalisé dans le cadre de la formation Openclassrooms "Développeur intégrateur web"<br />Développement de la page de connexion "from scratch" et de l'aspect dynamique d'un portfolio d'architecte d'intérieur en lien avec l'API fournie pour le projet. <br />L'objectif était triple: <br />
+            <h2>{t('sophiemodal.title')}</h2>
+            <p><strong>{t('sophiemodal.year')}</strong>2023</p>
+                    <p><strong>Mission:</strong><br />{t('sophiemodal.text1')}<br />{t('sophiemodal.text2')}<br />{t('sophiemodal.text3')}<br />
                         <ul>
-                            <li>Afficher tous les projets correspondants aux données de l'API de manière dynamique sur la page d'accueil</li>
-                            <li>Pouvoir se connecter en tant qu'administrateur avec les identifiants correspondants dans l'API</li>
-                            <li>Créer une modale permettant en tant qu'administrateur d'ajouter et supprimer des éléments de projets dans l'API</li>
+                            <li>{t('sophiemodal.text4')}</li>
+                            <li>{t('sophiemodal.text5')}</li>
+                            <li>{t('sophiemodal.text6')}</li>
                         </ul></p>
-            <h3>Technologies utilisées:</h3>
+            <h3>{t('sophiemodal.tech')}</h3>
           <div className='tech-container'>
             <div id='htmlsophie'><img src={htmlSophie} alt="Logo Html" /><p>HTML</p></div>
             <div id='csssophie'><img src={cssSophie} alt="Logo Css" /><p>CSS</p></div>
-                        <div id='jssophie'><img src={jsSophie} alt="Logo JS" /><p>Javascript</p></div>   
-                        <div id='nodesophie'><img src={nodeSophie} alt="Logo Node" /><p>NodeJS</p></div>
+            <div id='jssophie'><img src={jsSophie} alt="Logo JS" /><p>Javascript</p></div>   
+            <div id='nodesophie'><img src={nodeSophie} alt="Logo Node" /><p>NodeJS</p></div>
             <div id='npmsophie'><img src={npmSophie} alt="Logo npm" /><p>npm</p></div>            
             <div id='swaggersophie'><img src={swaggerSophie} alt="Logo Swagger" /><p>Swagger</p></div>
             </div>
             <div className='liensophie-container'>
-              <a href="https://github.com/CharlesHuault/Architecte-Sophie-Bluel" target="_blank" rel="noopener noreferrer"><button id='liensophie'>Voir le repositery Github</button></a>
+              <a href="https://github.com/CharlesHuault/Architecte-Sophie-Bluel" target="_blank" rel="noopener noreferrer"><button id='liensophie'>{t('sophiemodal.link1')}</button></a>
             </div>
           </div>
             <button onClick={closeModal}><FontAwesomeIcon icon={faTimes} id='close-icon' /></button>
         </div>
       <div className='modal-body'> 
           <div className='sophie-homepage-container'>
-            <h4>Page d'accueil</h4>
+            <h4>{t('sophiemodal.img1')}</h4>
             <img src={maqHomeSophie} alt="Maquette homepage sophie" id='sophiehomepage' />
           </div>
             <div className='sophie-login-modal-container'>
                 <div className='sophie-login-container'>
-                    <h4>Page de Connexion</h4>
+                    <h4>{t('sophiemodal.img2')}</h4>
                     <img src={maqLogSophie} alt="Maquette Login Sophie" />
                     </div>
                     <div className='sophie-modal-container'>
-                        <h4>Modale d'ajout de projet</h4>
+                        <h4>{t('sophiemodal.img3')}</h4>
                         <img src={maqModal1} alt="Maquette modale 1" />
                         <img src={maqModal2} alt="Maquette modale 2" />
                     </div>

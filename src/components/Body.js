@@ -10,7 +10,7 @@ import Elementcontact from './Elementcontact';
 
 
 const Body = () => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     return (
         <div className='body-background'>
             <div className='first-element'>
