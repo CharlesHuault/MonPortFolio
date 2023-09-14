@@ -109,3 +109,110 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #modal-kasa{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            .kasa-text{
+                width: 45%;
+                margin-left: 10%;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+
+            .lienkasa-container{
+                #lienkasa{
+                    font-size: 14px;
+                    width: 180px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }
+            .tech-container{
+                img{
+                    width: 32px;
+                }
+
+                #sasskasa img{
+                    width: 32px;
+                }
+            }
+        }
+
+        
+
+        .modal-body{
+            margin-top: 20px;
+
+            img{
+                width: 70%;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #modal-kasa{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            flex-direction: column-reverse;
+
+            .kasa-text{
+                width: 80%;
+                margin-left: 5%;
+                text-align: center;
+                align-items: center;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+
+            #Montagekasa{
+                margin-top: 25px;
+            }
+
+            .lienkasa-container{
+                #lienkasa{
+                    font-size: 14px;
+                    width: 180px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }
+            .tech-container{
+                width: 30%;
+                justify-content: space-around;
+
+                img{
+                    width: 24px;
+                }
+
+                #sasskasa img{
+                    width: 24px;
+                }
+            }
+        }
+
+        
+
+        .modal-body{
+            margin-top: 20px;
+
+            img{
+                width: 80%;
+            }
+
+        }
+    }
+}

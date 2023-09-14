@@ -10,3 +10,15 @@
 .elemapropos {
     display: flex;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .apropos-container{
+        font-size: 12px;
+    }   
+}
+
+@media screen and (max-width: 767px) {
+    .apropos-container{
+        font-size: 12px;
+    }   
+}

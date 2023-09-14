@@ -140,3 +140,110 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #modal-nina{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            .nina-text{
+                width: 45%;
+                margin-left: 10%;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+
+            .liennina-container{
+                button{
+                    font-size: 14px;
+                    width: 180px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            } 
+            .tech-container{
+                width: 30%;
+                img{
+                    width: 32px;
+                }
+            }
+        }
+
+       
+
+        .modal-body{
+            margin-top: 20px;
+
+            #screenlighthouse{
+                width: 80%;                
+            }
+            .wave-container{
+                width: 80%;
+                img{
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #modal-nina{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .nina-text{
+                width: 80%;
+                margin-left: 5%;
+                text-align: center;
+                align-items: center;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+            #Montagenina{
+                margin-top: 25px;
+            }
+
+            .liennina-container{
+                button{
+                    font-size: 12px;
+                    width: 160px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            } 
+            .tech-container{
+                width: 20%;
+                img{
+                    width: 24px;
+                }
+            }
+        }
+
+       
+
+        .modal-body{
+            margin-top: 20px;
+
+            #screenlighthouse{
+                width: 80%;                
+            }
+            .wave-container{
+                width: 80%;
+                img{
+                    width: 40%;
+                }
+            }
+        }
+    }
+}

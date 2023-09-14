@@ -9,3 +9,16 @@
         text-shadow: 1px 1px 2px  black;
     }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .bodytitle{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bodytitle{
+        height: 60px;
+    }
+}

@@ -14,5 +14,40 @@
 
     .reslogo {
         margin-top: 126px;
+        img{
+            margin-right: 20px;
+        }
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .mailres-container{
+        img{
+            width: 80px;
+        }
+
+        .reslogo{
+            margin-top: 80px;
+            img{
+                width: 48px;
+                margin-right: 10px;
+            }
+        }
+    }   
+}
+
+@media screen and (max-width: 767px) {
+    .mailres-container{
+        img{
+            width: 70px;
+        }
+
+        .reslogo{
+            margin-top: 80px;
+            img{
+                width: 40px;
+                margin-right: 10px;
+            }
+        }
+    }   
 }

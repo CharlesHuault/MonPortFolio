@@ -16,3 +16,47 @@
         top: 85%;
     }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .elemcompetences{
+        img{
+            width: 28px;            
+        }
+        
+        #logoswagger{
+            width: 28px;
+        }
+
+        li{
+            font-size: 12px;
+        }
+    }
+    .comp-container{
+        .ancre-projets{
+            top: 94%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .elemcompetences{
+        img{
+            width: 24px;
+            margin-top: 10px;            
+        }
+        
+        #logoswagger{
+            width: 24px;
+        }
+
+        li{
+            font-size: 12px;
+        }
+    }
+    .comp-container{
+        .ancre-projets{
+            top: 85%;
+        }
+    }
+}

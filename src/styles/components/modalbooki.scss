@@ -1,6 +1,3 @@
-.ReactModal__Overlay{
-
-}
 #modal-booki {    
     width: 80%;
     margin: 3% auto;
@@ -44,17 +41,21 @@
             }
         }
 
-        .lienbooki-container{
+            .lienbooki-container{
             display: flex;
-            justify-content: center;
-            margin-top: 8%;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-top: 8%;          
+             
 
-            #lienbooki {
-                font-size: 18px;
-                width: 150px;
-                height: 35px;
+            button {
+                margin-bottom: 4%;
                 position: relative;
-                left: 0%;            
+                font-size: 18px;
+                width: 230px;
+                height: 35px;
+                left: 0%;         
                 text-decoration: none;
                 background-color: #FFF4E8;
                 border-radius: 15px;
@@ -118,6 +119,124 @@
                 width: 50%;
                 border-radius: 5px;
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #modal-booki{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            .booki-text{
+                width: 45%;
+                margin-left: 10%;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+
+            #Montagebooki{
+                width: 45%;
+            }
+
+            .lienbooki-container{
+                button{
+                    font-size: 14px;
+                    width: 180px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .tech-container{
+            img{
+                width: 32px;
+            }
+        }
+
+        .modal-body{
+            margin-top: 20px;
+
+            .booki-desktop-tablette-container{
+                img{
+                    width: 80%;
+                }
+            }
+            .booki-mobile-container{
+                img{
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #modal-booki{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .booki-text{
+                width: 80%;
+                margin-left: 5%;
+                text-align: center;
+                align-items: center;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+
+            #Montagebooki{
+                margin-top: 25px;
+            }
+
+            .lienbooki-container{
+                button{
+                    font-size: 12px;
+                    width: 160px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }
+            
+            .tech-container{
+                width: 20%;
+                img{
+                    width: 24px;
+                }
+            }
+        }
+
+        
+
+        .modal-body{
+            margin-top: 20px;
+            flex-direction: column;
+
+            .booki-desktop-tablette-container{
+                width: auto;
+                img{
+                    width: 80%;
+                }
+            }
+            .booki-mobile-container{
+                width: auto;
+                img{
+                    width: 40%;
+                }
             }
         }
     }

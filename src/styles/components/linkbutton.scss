@@ -18,3 +18,28 @@
 .has-logo-margin {
     margin-left: 5px;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Accueilbutton{
+        width: 120px;
+        height: 35px;
+        font-size: 16px;
+
+        img {
+           width: 22px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Accueilbutton{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+
+        img {
+           width: 20px;
+        }
+    }
+}

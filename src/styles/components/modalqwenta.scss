@@ -90,3 +90,112 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #modal-qwenta{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            .qwenta-text{
+                width: 45%;
+                margin-left: 10%;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+            .lienqwenta-container{
+                button{
+                    font-size: 14px;
+                    width: 180px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }     
+            .tech-container{
+                img{
+                    width: 32px;
+                }
+                #wakeletmenu{
+                    height: 32px;
+                    img{
+                        margin-bottom: 5px;
+                        width: 32px;
+                    }
+                }  
+            }
+        }
+
+   
+
+        .modal-body{
+            margin-top: 20px;
+
+            img{
+                width: 75%;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #modal-qwenta{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .qwenta-text{
+                width: 45%;
+                margin-left: 10%;
+                text-align: center;
+                align-items: center;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+
+            #Montageqwenta{
+                margin-top: 25px;
+            }
+
+            .lienqwenta-container{
+                button{
+                    font-size: 12px;
+                    width: 160px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }     
+            .tech-container{
+                img{
+                    width: 24px;
+                }
+                #wakeletmenu{
+                    img{
+                        margin-top: 10px;
+                        margin-bottom: 9px;
+                        width: 24px;
+                    }
+                }  
+            }
+        }
+
+   
+
+        .modal-body{
+            margin-top: 20px;
+
+            img{
+                width: 75%;
+            }
+
+        }
+    }
+}

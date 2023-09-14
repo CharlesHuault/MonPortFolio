@@ -55,3 +55,18 @@
     display: flex;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cardtext{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cardtext{
+        font-size: 18px;
+    }
+    .card {
+        width: 75%;
+        height: 550px;
+    }
+}

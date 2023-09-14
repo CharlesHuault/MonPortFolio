@@ -10,3 +10,19 @@
         color: black;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar {
+        width: 75%;
+        height: 50px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        width: 75%;
+        height: 50px;
+        margin-left: 5%;
+    }
+}

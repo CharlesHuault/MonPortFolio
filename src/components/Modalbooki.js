@@ -27,7 +27,8 @@ const Modalbooki = ({ isOpen, closeModal }) => {
             <div id='cssbooki'><img src={logoCSS} alt="Logo Css" /><p>CSS</p></div>
           </div>
             <div className='lienbooki-container'>
-              <a href="https://charleshuault.github.io/Booki/" target="_blank" rel="noopener noreferrer"><button id='lienbooki'>{t('bookimodal.link')}</button></a>
+            <a href="https://charleshuault.github.io/Booki/" target="_blank" rel="noopener noreferrer"><button id='lienbooki'>{t('bookimodal.link')}</button></a>
+            <a href="https://github.com/CharlesHuault/Booki" target="_blank" rel="noopener noreferrer"><button id='liengithubbooki'>{t('bookimodal.link2')}</button></a> 
             </div>
           </div>
             <button onClick={closeModal}><FontAwesomeIcon icon={faTimes} id='close-icon' /></button>

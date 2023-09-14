@@ -36,3 +36,36 @@
         justify-content: space-around;
     }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .skills-block{
+        .logos{
+            img{
+            margin-right: 10px;
+            }
+        }
+        h4{
+            height: 25px;
+        }
+        ul{
+            margin-top: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .skills-block{
+        .logos{
+            img{
+            margin-right: 10px;
+            }
+        }
+        h4{
+            height: 25px;
+        }
+        ul{
+            margin-top: 15px;
+        }
+    }
+}

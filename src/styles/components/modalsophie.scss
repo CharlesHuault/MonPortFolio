@@ -6,10 +6,10 @@
     width: 80%;
     margin: 3% auto;
     background-color: #BBC3CE !important;
-    scrollbar-width: thin;
+    scrollbar-width:thin;
+    
     text-shadow: 1px 1px 2px  black;
     border-radius: 25px !important;
-
     .modal-header{
         display: flex;
         align-items: center;
@@ -133,6 +133,130 @@
                 border-radius: 5px;
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); 
             }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #modal-sophie{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            .sophie-text{
+                width: 45%;
+                margin-left: 10%;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+
+            #Montagesophie{
+                width: 55%;
+            }
+
+            .liensophie-container{
+                #liensophie{
+                    font-size: 14px;
+                    width: 180px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }        
+            .tech-container{
+                img{
+                    width: 32px;
+                }
+                #swaggersophie{
+                    img{
+                        width: 32px;
+                    }
+                }
+            }
+        }
+
+
+
+        .modal-body{
+            margin-top: 20px;
+
+            .sophie-homepage-container{
+                img{
+                    width: 80%;
+                }
+            }
+            .sophie-login-modal-container{
+                img{
+                    width: 80%;
+                }
+            }       
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #modal-sophie{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .sophie-text{
+                width: 45%;
+                margin-left: 10%;
+                text-align: center;
+                align-items: center;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+
+            #Montagesophie{
+                margin-top: 25px;
+            }
+
+            .liensophie-container{
+                #liensophie{
+                    font-size: 12px;
+                    width: 160px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }        
+            .tech-container{
+                img{
+                    width: 24px;
+                }
+                #swaggersophie{
+                    img{
+                        width: 24px;
+                    }
+                }
+            }
+        }
+
+
+
+        .modal-body{
+            margin-top: 20px;
+
+            .sophie-homepage-container{
+                img{
+                    width: 80%;
+                }
+            }
+            .sophie-login-modal-container{
+                img{
+                    width: 80%;
+                }
+            }       
         }
     }
 }

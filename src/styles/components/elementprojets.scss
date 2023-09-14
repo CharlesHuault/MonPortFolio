@@ -14,3 +14,23 @@
     flex-wrap: wrap;
     height: 100%;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cards-list-container{
+        height: 1100px;
+
+        #a-propos{
+            bottom: 1%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cards-list-container{
+        height: auto;
+
+        #a-propos{
+            bottom: 1%;
+        }
+    }
+}
