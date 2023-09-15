@@ -22,7 +22,7 @@ const Modalgrim = ({ isOpen, closeModal }) => {
         <img src={montageGrim} alt="montage MonVieuxGrimoire" id='Montagegrim'/>
           <div className='grim-text'>
             <h2>{t('grimmodal.title')}</h2>
-            <p><strong>{t('grimmodal.year')}</strong>2023</p>
+            <p><strong className='addspace'>{t('grimmodal.year')}</strong>2023</p>
                     <p><strong>Mission:</strong><br />{t('grimmodal.text1')}<br />{t('grimmodal.text2')}<br />{t('grimmodal.text3')}<br />{t('grimmodal.text4')}</p>
             <h3>{t('grimmodal.tech')}</h3>
             <div className='tech-container'>

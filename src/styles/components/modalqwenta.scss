@@ -142,6 +142,13 @@
 
 @media screen and (max-width: 767px) {
     #modal-qwenta{
+        padding: 20px 0px !important;
+        margin-top: 20px;
+        inset: 40px 40px 10px !important;
+
+        .addspace{
+            margin-right: 10px;
+        }
 
         p{
             font-size: 12px;
@@ -151,18 +158,24 @@
             flex-direction: column-reverse;
             align-items: center;
 
+            h3{
+                font-size: 12px;
+            }
+
             .qwenta-text{
-                width: 45%;
+                width: 80%;
                 margin-left: 10%;
                 text-align: center;
                 align-items: center;
                 h2{
                     margin-bottom: 20px;
+                    font-size: 18px;
                 }
             }
 
             #Montageqwenta{
                 margin-top: 25px;
+                width: 80%;
             }
 
             .lienqwenta-container{
@@ -185,12 +198,22 @@
                     }
                 }  
             }
+            button{
+                left: 83%;
+                top: 8%;
+                position: fixed;
+            }
         }
 
    
 
         .modal-body{
             margin-top: 20px;
+            flex-direction: column;
+
+            h4{
+                font-size: 14px;
+            }
 
             img{
                 width: 75%;

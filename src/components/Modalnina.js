@@ -19,7 +19,7 @@ const Modalnina = ({ isOpen, closeModal }) => {
         <img src={montageNina} alt="montage nina" id='Montagenina'/>
           <div className='nina-text'>
             <h2>{t('ninamodal.title')}</h2>
-            <p><strong>{t('ninamodal.year')}</strong>2023</p>
+            <p><strong className='addspace'>{t('ninamodal.year')}</strong>2023</p>
             <p><strong>Mission:</strong><br />{t('ninamodal.text1')}<br />{t('ninamodal.text2')}</p>
             <h3>{t('ninamodal.tech')}</h3>
           <div className='tech-container'>

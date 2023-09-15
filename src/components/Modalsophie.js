@@ -24,7 +24,7 @@ const Modalsophie = ({ isOpen, closeModal }) => {
         <img src={montageSophie} alt="montage sophie" id='Montagesophie'/>
           <div className='sophie-text'>
             <h2>{t('sophiemodal.title')}</h2>
-            <p><strong>{t('sophiemodal.year')}</strong>2023</p>
+            <p><strong className='addspace'>{t('sophiemodal.year')}</strong>2023</p>
                     <p><strong>Mission:</strong><br />{t('sophiemodal.text1')}<br />{t('sophiemodal.text2')}<br />{t('sophiemodal.text3')}<br />
                         <ul>
                             <li>{t('sophiemodal.text4')}</li>

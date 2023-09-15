@@ -160,6 +160,14 @@
 
 @media screen and (max-width: 767px) {
     #modal-grim{
+        padding: 20px 0px !important;
+        margin-top: 20px;
+        inset: 40px 40px 10px !important;
+        
+        .addspace{
+            margin-right: 10px;
+        }
+
 
         p{
             font-size: 12px;
@@ -169,18 +177,24 @@
             flex-direction: column-reverse;
             align-items: center;
 
+            h3{
+                font-size: 12px;
+            }
+
             .grim-text{
-                width: 45%;
+                width: 80%;
                 margin-left: 5%;
                 text-align: center;
                 align-items: center;
                 h2{
                     margin-bottom: 20px;
+                    font-size: 18px;
                 }
             }
 
             #Montagegrim{
                 margin-top: 25px;
+                width: 80%;
             }
 
             .liengrim-container{
@@ -198,16 +212,19 @@
                     width: 24px;
                 }   
             }
+            button{
+                left: 83%;
+                top: 8%;
+                position: fixed;
+            }
         }
 
         
 
         .modal-body{
             margin-top: 20px;    
-
-            img{
-                width: 70%;
-            }
+            text-align: center;
+    
         }
     }
 }

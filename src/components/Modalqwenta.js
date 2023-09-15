@@ -20,7 +20,7 @@ const Modalqwenta = ({ isOpen, closeModal }) => {
         <img src={montageQwenta} alt="montage qwenta" id='Montageqwenta'/>
           <div className='qwenta-text'>
             <h2>{t('qwentamodal.title')}</h2>
-            <p><strong>{t('qwentamodal.year')}</strong>2023</p>
+            <p><strong className='addspace'>{t('qwentamodal.year')}</strong>2023</p>
             <p><strong>Mission:</strong><br />{t('qwentamodal.text1')}<br />{t('qwentamodal.text2')}<br />{t('qwentamodal.text3')}</p>
             <h3>{t('qwentamodal.tech')}</h3>
           <div className='tech-container'>

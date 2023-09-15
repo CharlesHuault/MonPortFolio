@@ -57,8 +57,11 @@
 @media screen and (max-width: 767px) {
     .skills-block{
         .logos{
+            flex-wrap: wrap;
+            height: 60px;
             img{
             margin-right: 10px;
+            width: 16px;
             }
         }
         h4{

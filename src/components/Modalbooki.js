@@ -19,7 +19,7 @@ const Modalbooki = ({ isOpen, closeModal }) => {
         <img src={montageBooki} alt="montage booki" id='Montagebooki'/>
           <div className='booki-text'>
             <h2>{t('bookimodal.title')}</h2>
-            <p><strong>{t('bookimodal.year')}</strong>2023</p>
+            <p><strong className='addspace'>{t('bookimodal.year')}</strong>2023</p>
             <p><strong>Mission:</strong><br />{t('bookimodal.text1')}<br />{t('bookimodal.text2')}</p>
             <h3>{t('bookimodal.tech')}</h3>
           <div className='tech-container'>
