@@ -50,7 +50,12 @@
 
     "form": {
         "name": "Nom",
-        "text": "Votre Message"
+        "text": "Votre Message",
+        "send": "Envoyer",
+        "errorname": "Votre nom doit contenir au moins 5 caractères",
+        "erroremail": "Vous devez entrer une adresse email valide",
+        "errormessage": "Votre message doit contenir au moins 50 caractères",
+        "successmessage": "Message envoyé!"
     },
 
     "social": {
@@ -97,7 +102,8 @@
         "text3": "Le contenu est intégré dynamiquement à partir d'un fichier JSON contenant une liste de données pour tous les logements",
         "text4": "Le style contient des animations et est écrit en Sass",
         "tech": "Technologies utilisées:",
-        "link": "Voir le repositery Github",
+        "link": "Visitez le site",
+        "link2": "Voir le repositery Github",
         "img1": "Page d'accueil",
         "img2": "Page d'un logement",
         "img3": "Page A propos"

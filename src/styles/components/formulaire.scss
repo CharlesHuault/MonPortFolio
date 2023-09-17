@@ -46,6 +46,23 @@ form {
             max-height: 3000px;
         }
 }
+    .sendbutton{
+        padding: 0;
+        align-self: center;
+        width: 30%;
+        margin-top: 5px;
+        background-color: #FFF4E8;
+        border-radius: 15px;
+        border: 1px solid #ffe1c1;
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+        transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+
+        &:hover{
+            background-color: #ffe1c1;
+            transform: scale(1.10);
+            cursor: pointer;
+            }
+        }
 
 
 }
@@ -79,5 +96,6 @@ form {
         textarea{
             font-size: 10px;
         }
+        
     }
 }

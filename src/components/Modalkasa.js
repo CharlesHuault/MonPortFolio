@@ -30,7 +30,8 @@ const Modalkasa = ({ isOpen, closeModal }) => {
 
             </div>
             <div className='lienkasa-container'>
-              <a href="https://github.com/CharlesHuault/Kasa" target="_blank" rel="noopener noreferrer"><button id='lienkasa'>{t('kasamodal.link')}</button></a>
+              <a href="https://charleshuault-kasa.netlify.app/" target="_blank" rel="noopener noreferrer"><button className='lienkasa'>{t('kasamodal.link')}</button></a>
+              <a href="https://github.com/CharlesHuault/Kasa" target="_blank" rel="noopener noreferrer"><button className='lienkasa'>{t('kasamodal.link2')}</button></a>
             </div>
           </div>
             <button onClick={closeModal}><FontAwesomeIcon icon={faTimes} id='close-icon' /></button>

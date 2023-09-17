@@ -50,7 +50,12 @@
 
     "form": {
         "name": "Name",
-        "text": "Your Message"
+        "text": "Your Message",
+        "send": "Send",
+        "errorname": "Your name must be at least 5 letters long",
+        "erroremail": "You must enter a valid email adress",
+        "errormessage": "Your message must be at least 50 letters long",
+        "successmessage": "Email sent"
     },
 
     "social": {

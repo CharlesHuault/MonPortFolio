@@ -51,10 +51,13 @@
 
         .lienkasa-container{
             display: flex;
-            justify-content: center;
-            margin-top: 8%;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-top: 8%; 
 
-            #lienkasa {
+            .lienkasa {
+                margin-bottom: 4%;
                 font-size: 18px;
                 width: 230px;
                 height: 35px;
@@ -197,7 +200,7 @@
             }
 
             .lienkasa-container{
-                #lienkasa{
+                button{
                     font-size: 14px;
                     width: 180px;
                     height: 25px;
