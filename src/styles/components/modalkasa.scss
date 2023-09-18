@@ -4,11 +4,14 @@
 }
 #modal-kasa {
     width: 80%;
-    margin: 3% auto;
+    margin: 5% auto;
     background-color: #BBC3CE !important;
-    scrollbar-width: thin;
+    scrollbar-width: none;
     text-shadow: 1px 1px 2px  black;
     border-radius: 25px !important;
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
     .modal-header{
         display: flex;
