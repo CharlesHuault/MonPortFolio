@@ -15,14 +15,15 @@ import Modalnina from './Modalnina';
 import Modalkasa from './Modalkasa';
 import Modalgrim from './Modalgrim';
 
-
+// Composant contenant les cards et les modales des projets à mettre en avant
 const Elementprojets = () => {
     const [isOpen, setIsOpen] = useState(false);    
-    const [selectedCardId, setSelectedCardId] = useState(null);    
-    const { t } = useTranslation();
-    
+    const [selectedCardId, setSelectedCardId] = useState(null);
 
+    // Appel de i18n pour la traduction des textes du composant
+    const { t } = useTranslation();   
 
+    // Constantes d'ouverture et de fermeture des modales
   const openModal = (cardId) => {
     setIsOpen(true);
     setSelectedCardId(cardId);
@@ -34,6 +35,7 @@ const Elementprojets = () => {
   };  
 
     return (
+    // Création de chaque Card de projet, en injectant l'image de fond et le texte dans le pattern du composant ainsi que les fonctions d'ouverture et fermeture de modale
         <div className='cards-list-container'>
         <div className='cards-list'>
             <Card
@@ -98,6 +100,7 @@ const Elementprojets = () => {
                 {t('projectsblock.grim1')} <br /> {t('projectsblock.grim2')}
             </Card>
 
+                {/* Intégration de chaque composant de modale avec les attributs pour leur ouverture et leur fermeture atitrés */}
                 <Modalbooki isOpen={isOpen && selectedCardId === 'Booki'} closeModal={closeModal} />
                 <Modalsophie isOpen={isOpen && selectedCardId === 'Sophie'} closeModal={closeModal} />
                 <Modalqwenta isOpen={isOpen && selectedCardId === 'Menu'} closeModal={closeModal} />

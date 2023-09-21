@@ -9,6 +9,8 @@ import Elementapropos from './Elementapropos';
 import Elementcontact from './Elementcontact';
 
 
+// Composant principal du Body du site, contient les composants des 5 blocs avec à chaque fois titre et container
+
 const Body = () => {
     const { t } = useTranslation();
     return (

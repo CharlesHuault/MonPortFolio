@@ -5,7 +5,9 @@ import logoMail from '../assets/logos/LogoMAILfooter.svg'
 import logoTel from '../assets/logos/LogoTEL.svg'
 
 const Footer = () => {
+    // Appel de i18n pour la traduction des textes du composant
     const { t } = useTranslation();
+    
     return (
         <div className='footer'>
             <div className='logo-footer'>

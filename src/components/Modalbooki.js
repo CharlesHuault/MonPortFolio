@@ -11,8 +11,11 @@ import maqDeskBooki from '../assets/img/MaqDeskBooki.png'
 import maqTabBooki from '../assets/img/Tablettebooki.png'
 import maqMobBooki from '../assets/img/Mobilebooki.png'
 
+// Composant de la modale du projet "Booki"
 const Modalbooki = ({ isOpen, closeModal }) => {
+  // Appel de i18n pour la traduction des textes du composant
   const { t } = useTranslation();
+  
   return (
     <ReactModal id='modal-booki'isOpen={isOpen} onRequestClose={closeModal}>
         <div className='modal-header'>

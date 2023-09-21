@@ -3,8 +3,12 @@ import emailjs from '@emailjs/browser';
 import '../styles/components/formulaire.scss';
 import { useTranslation } from 'react-i18next';
 
+
+  // Composant du formulaire de contact
 const Formulaire = () => {
+  // Appel de i18n pour la traduction des textes du composant
   const { t } = useTranslation();
+
   const form = useRef();
   const [errors, setErrors] = useState({
     Nom: '',
@@ -13,10 +17,11 @@ const Formulaire = () => {
   });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Valider le champ Nom
+    // Valider le champ Nom avec au moins 5 caractères, sinon renvoyer une erreur
     if (form.current.Nom.value.length < 5) {
       setErrors({ ...errors, Nom: t('form.errorname') });
       return;
@@ -24,7 +29,7 @@ const Formulaire = () => {
       setErrors({ ...errors, Nom: '' });
     }
 
-    // Valider le champ email
+    // Valider le champ email avec une adresse valide sinon renvoyer une erreur
     const emailPattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
     if (!emailPattern.test(form.current.email.value)) {
       setErrors({ ...errors, email: t('form.erroremail') });
@@ -33,7 +38,7 @@ const Formulaire = () => {
       setErrors({ ...errors, email: '' });
     }
 
-    // Valider le champ message
+    // Valider le champ message avec au moins 50 caractères, sinon renvoyer une erreur
     if (form.current.message.value.length < 50) {
       setErrors({ ...errors, message: t('form.errormessage') });
       return;
@@ -57,18 +62,18 @@ const Formulaire = () => {
   };
 
   useEffect(() => {
-    // Sélectionnez tous les textarea avec la classe "auto-expand"
+    // Sélection de tous les textarea avec la classe "auto-expand"
     const textareas = document.querySelectorAll('textarea.auto-expand');
 
-    // Ajoutez un gestionnaire d'événements "input" à chaque textarea
+    // Ajout d'un gestionnaire d'événements "input" à chaque textarea
     textareas.forEach((textarea) => {
       textarea.addEventListener('input', function () {
-        this.style.height = 'auto'; // Réinitialisez la hauteur à "auto" pour recalculer la hauteur réelle
-        this.style.height = this.scrollHeight + 'px'; // Ajustez la hauteur en fonction du contenu
+        this.style.height = 'auto'; // Réinitialisation de la hauteur à "auto" pour recalculer la hauteur réelle
+        this.style.height = this.scrollHeight + 'px'; // Ajustement de la hauteur en fonction du contenu
       });
     });
 
-    // Nettoyez les gestionnaires d'événements lorsque le composant est démonté
+    // Nettoyage des gestionnaires d'événements lorsque le composant est démonté
     return () => {
       textareas.forEach((textarea) => {
         textarea.removeEventListener('input', function () {
@@ -80,6 +85,8 @@ const Formulaire = () => {
   }, []);
 
   return (
+
+    // Corps du formulaire appellant les éléments créés plus haut
     <div className='form-container'>
       <h4>FORMULAIRE</h4>
       {isFormSubmitted ? (

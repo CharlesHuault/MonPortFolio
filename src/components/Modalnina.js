@@ -11,7 +11,9 @@ import lighthouseOk from '../assets/img/lighthouseok.png'
 import waveAvModif from '../assets/img/waveavmodif.png'
 import waveApModif from '../assets/img/waveapmodif.png'
 
+// Composant de la modale du projet "Nina Carducci"
 const Modalnina = ({ isOpen, closeModal }) => {
+  // Appel de i18n pour la traduction des textes du composant
   const { t } = useTranslation();
     return (
         <ReactModal id='modal-nina'isOpen={isOpen} onRequestClose={closeModal}>

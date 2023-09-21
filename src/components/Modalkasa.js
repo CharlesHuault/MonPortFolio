@@ -12,7 +12,9 @@ import kasaHome from '../assets/img/kasascreen.png'
 import kasaLogement from '../assets/img/logementkasa.png'
 import kasaAbout from '../assets/img/aproposkasa.png'
 
+// Composant de la modale du projet "Kasa"
 const Modalkasa = ({ isOpen, closeModal }) => {
+  // Appel de i18n pour la traduction des textes du composant
   const { t } = useTranslation();
     return (
         <ReactModal id='modal-kasa'isOpen={isOpen} onRequestClose={closeModal}>

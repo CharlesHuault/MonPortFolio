@@ -66,7 +66,7 @@
         font-size: 18px;
         color: white;
         opacity: 1;
-        text-shadow: 1px 1px 2px black; /* Apply text styles for touch devices */
+        text-shadow: 1px 1px 2px black; 
     
     }
     .card {
@@ -74,7 +74,7 @@
         height: 550px;
         
         &:before {
-            background-color: rgba(62, 147, 115, 0.6); /* Apply background color by default for touch devices */
+            background-color: rgba(62, 147, 115, 0.6);
         }
     }
     

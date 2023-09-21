@@ -6,7 +6,9 @@ import logoLINKDIN from '../assets/logos/LogoLINKDIN.svg'
 import logoGITHUBGD from '../assets/logos/LogoGITHUBGD.svg'
 
 const Mailreseaux = () => {
+    // Appel de i18n pour la traduction des textes du composant
     const { t } = useTranslation();
+    
     return (
         <div className='mailres-container'>
                 <div className='maillogo'>

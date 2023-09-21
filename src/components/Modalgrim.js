@@ -14,7 +14,9 @@ import grimLivre from '../assets/img/grimpagelivre.png'
 import grimAjout from '../assets/img/grimpageajout.png'
 import grimLogin from '../assets/img/grimpagelogin.png'
 
+// Composant de la modale du projet "MonVieuxGrimoire"
 const Modalgrim = ({ isOpen, closeModal }) => {
+  // Appel de i18n pour la traduction des textes du composant
   const { t } = useTranslation();
     return (
         <ReactModal id='modal-grim'isOpen={isOpen} onRequestClose={closeModal}>

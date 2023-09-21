@@ -1,4 +1,6 @@
 {
+    "__comment": "Ceci est le fichier contenant les textes de la page en français à injecter avec i18n",
+
     "accueil": {
         "title": "Charles Huault - Développeur Frontend",
         "cv-button": "Mon CV"
@@ -152,7 +154,7 @@
     "monotext" :{
         "age" : "33 ans",
         "text1": "Ayant toujours été passionné par la tech et le domaine du web,",
-        "text2": "j’ai décidé, après 15 ans de restauration, de me former au métier de développeur.",
+        "text2": "j’ai décidé, après 15 ans dans la restauration, de me former au métier de développeur.",
         "text3": "Dynamique, curieux et perfectionniste, j’ai hâte de mettre en application ",
         "text4": "les compétences acquises aujourd’hui et en apprendre de nouvelles",
         "text5": " dans un cadre professionnel"

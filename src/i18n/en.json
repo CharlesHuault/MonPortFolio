@@ -1,4 +1,10 @@
-{
+
+  
+
+
+{   
+    "__comment": "Ceci est le fichier contenant les textes de la page en anglais à injecter avec i18n",
+
     "accueil": {
         "title": "Charles Huault - Frontend Developper",
         "cv-button": "My Resume"

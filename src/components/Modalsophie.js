@@ -16,7 +16,9 @@ import maqLogSophie from '../assets/img/Maquette-login-sophie.png'
 import maqModal1 from '../assets/img/Maquette-modale-1-sophie.png'
 import maqModal2 from '../assets/img/Maquette-modale-2-sophie.png'
 
+// Composant de la modale du projet "Sophie Bluel"
 const Modalsophie = ({ isOpen, closeModal }) => {
+  // Appel de i18n pour la traduction des textes du composant
   const { t } = useTranslation();
     return (
         <ReactModal id='modal-sophie'isOpen={isOpen} onRequestClose={closeModal}>

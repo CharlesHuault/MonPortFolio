@@ -12,7 +12,9 @@ import screenTrello from '../assets/img/screentrello.png'
 import screenWakelet from '../assets/img/screenwakelet.png'
 import screenSpeTech from '../assets/img/screenspetechniques.png'
 
+// Composant de la modale du projet "MenuMaker by Qwenta"
 const Modalqwenta = ({ isOpen, closeModal }) => {
+  // Appel de i18n pour la traduction des textes du composant
   const { t } = useTranslation() ;
     return (
      <ReactModal id='modal-qwenta'isOpen={isOpen} onRequestClose={closeModal}>

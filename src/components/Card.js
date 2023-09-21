@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/components/card.scss';
 
+// Composant créant le pattern d'une card de projet
 const Card = ({ id, cover, children, openModal }) => {
   const handleOpenModal = () => {
     openModal(id);

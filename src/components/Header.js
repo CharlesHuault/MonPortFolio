@@ -5,8 +5,13 @@ import '../styles/components/header.scss';
 import logoFR from '../assets/logos/LogoFlagFr.svg';
 import logoUK from '../assets/logos/LogoFlagUk.svg';
 
+
+// Composant Header contenant le composant de navigation principale et la logique de changement de langue de la page 
 const Header = () => {
+    // Appel de i18n pour la traduction des textes du composant
     const { i18n } = useTranslation();
+
+    // Définition des constantes de changement de langue et du menu déroulant affichant les drapeaux
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const currentLanguage = i18n.language;
 

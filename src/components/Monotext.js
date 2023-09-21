@@ -3,6 +3,7 @@ import '../styles/components/monotext.scss'
 import { useTranslation } from 'react-i18next';
 
 const Monotext = () => {
+    // Appel de i18n pour la traduction des textes du composant
     const { t } = useTranslation();
     return (
         <div className='texte-presentation'>

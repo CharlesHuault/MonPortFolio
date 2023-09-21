@@ -1,6 +1,5 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import "./styles/app.scss"
 import Home from './pages/Home';
 import Modal from 'react-modal';
 
