@@ -84,7 +84,7 @@
         "year": "Année:",
         "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
         "text2": "Création du backend d'une application de notations de livres.",
-        "text3": ">Mise en place d'une base de données pour stocker les identifiants des usagers et les données qu'ils peuvent poster: l'ajout d'un livre et ses informations et la possibilité de noter un :livre posté par un autre utilisateur.",
+        "text3": "Mise en place d'une base de données pour stocker les identifiants des usagers et les données qu'ils peuvent poster: l'ajout d'un livre et ses informations et la possibilité de noter un :livre posté par un autre utilisateur.",
         "text4": "Création de l'API communiquant entre la base de données créée et l'application frontend fournie pour le projet",
         "tech": "Technologies utilisées:",
         "link": "Voir le repositery Github",

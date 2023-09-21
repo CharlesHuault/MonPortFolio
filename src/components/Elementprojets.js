@@ -41,8 +41,10 @@ const Elementprojets = () => {
                 id='Booki'
                 isOpen={isOpen && selectedCardId === 'Booki'}
                 openModal={() => openModal('Booki')}
-                closeModal={closeModal}>
-                    {t('projectsblock.booki1')} <br /> {t('projectsblock.booki2')}
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
+                {t('projectsblock.booki1')} <br /> {t('projectsblock.booki2')}
+                
             </Card>
             
             <Card
@@ -50,8 +52,10 @@ const Elementprojets = () => {
                 id='Sophie'
                 isOpen={isOpen && selectedCardId === 'Sophie'}
                 openModal={() => openModal('Sophie')}
-                closeModal={closeModal}>
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
                 {t('projectsblock.sophie')}
+                
             </Card>
 
             <Card
@@ -60,7 +64,7 @@ const Elementprojets = () => {
                 isOpen={isOpen && selectedCardId === 'Menu'}
                 openModal={() => openModal('Menu')}
                 closeModal={closeModal}
-            >
+                appElement={document.getElementById('root')}>
                 {t('projectsblock.menu1')} <br /> {t('projectsblock.menu2')}
             </Card>
 
@@ -70,7 +74,7 @@ const Elementprojets = () => {
                 isOpen={isOpen && selectedCardId === 'Nina'}
                 openModal={() => openModal('Nina')}
                 closeModal={closeModal}
-            >
+                appElement={document.getElementById('root')}>
                 {t('projectsblock.nina1')} <br /> {t('projectsblock.nina2')}
             </Card>
 
@@ -80,7 +84,7 @@ const Elementprojets = () => {
                 isOpen={isOpen && selectedCardId === 'Kasa'}
                 openModal={() => openModal('Kasa')}
                 closeModal={closeModal}
-            >
+                appElement={document.getElementById('root')}>
                 {t('projectsblock.kasa1')} <br /> {t('projectsblock.kasa2')}
             </Card>
 
@@ -90,7 +94,7 @@ const Elementprojets = () => {
                 isOpen={isOpen && selectedCardId === 'Grim'}
                 openModal={() => openModal('Grim')}
                 closeModal={closeModal}
-            >
+                appElement={document.getElementById('root')}>
                 {t('projectsblock.grim1')} <br /> {t('projectsblock.grim2')}
             </Card>
 

@@ -25,12 +25,12 @@ const Modalsophie = ({ isOpen, closeModal }) => {
           <div className='sophie-text'>
             <h2>{t('sophiemodal.title')}</h2>
             <p><strong className='addspace'>{t('sophiemodal.year')}</strong>2023</p>
-                    <p><strong>Mission:</strong><br />{t('sophiemodal.text1')}<br />{t('sophiemodal.text2')}<br />{t('sophiemodal.text3')}<br />
+                    <p><strong>Mission:</strong><br />{t('sophiemodal.text1')}<br />{t('sophiemodal.text2')}<br />{t('sophiemodal.text3')}<br /></p>
                         <ul>
                             <li>{t('sophiemodal.text4')}</li>
                             <li>{t('sophiemodal.text5')}</li>
                             <li>{t('sophiemodal.text6')}</li>
-                        </ul></p>
+                        </ul>
             <h3>{t('sophiemodal.tech')}</h3>
           <div className='tech-container'>
             <div id='htmlsophie'><img src={htmlSophie} alt="Logo Html" /><p>HTML</p></div>
