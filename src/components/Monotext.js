@@ -14,6 +14,7 @@ const Monotext = () => {
             <div>
                 <p>{t('monotext.text1')}<br /> {t('monotext.text2')}</p>
                 <p >{t('monotext.text3')}<br />{t('monotext.text4')}<br />{t('monotext.text5')}</p>
+                <p>{t('monotext.text6')}<br />{t('monotext.text7')}<br />{t('monotext.text8')} </p>
             </div>
             <div id="competences"></div>
         </div>

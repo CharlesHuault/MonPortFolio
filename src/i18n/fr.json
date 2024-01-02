@@ -72,7 +72,10 @@
         "title": "Frontend du site 'Booki'",
         "year": "Année:",
         "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
-        "text2": "Développement du Frontend responsive d'un site de location d'hébergements de vacances",
+        "text2": "Intégration du frontend responsive pour un site de locations de logements de vacances à partir des maquettes fournies.",
+        "text3": "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+        "text4": "Implémenter une interface responsive avec HTML et CSS",
+        "text5": "Mettre en place un environnement de travail approprié au développement",
         "tech": "Technologies utilisées:",
         "link": "Visitez le site",
         "link2": "Voir le repositery Github",
@@ -157,7 +160,10 @@
         "text2": "j’ai décidé, après 15 ans dans la restauration, de me former au métier de développeur.",
         "text3": "Dynamique, curieux et perfectionniste, j’ai hâte de mettre en application ",
         "text4": "les compétences acquises aujourd’hui et en apprendre de nouvelles",
-        "text5": " dans un cadre professionnel"
+        "text5": " dans un cadre professionnel.",
+        "text6": "J'ai par ailleurs lancé mon activité secondaire en auto-entreprise en Novembre 2023.",
+        "text7": "Elle consiste à la création, la gestion de l'hébergement et la maintenance",
+        "text8": "de sites web pour indépendants, TPE/PME et particuliers."
     }
 
 
