@@ -37,59 +37,7 @@ const Elementprojets = () => {
     return (
     // Création de chaque Card de projet, en injectant l'image de fond et le texte dans le pattern du composant ainsi que les fonctions d'ouverture et fermeture de modale
         <div className='cards-list-container'>
-        <div className='cards-list'>
-            <Card
-                cover={maqBooki}
-                id='Booki'
-                isOpen={isOpen && selectedCardId === 'Booki'}
-                openModal={() => openModal('Booki')}
-                closeModal={closeModal}
-                appElement={document.getElementById('root')}>
-                {t('projectsblock.booki1')} <br /> {t('projectsblock.booki2')}
-                
-            </Card>
-            
-            <Card
-                cover={maqSophie}
-                id='Sophie'
-                isOpen={isOpen && selectedCardId === 'Sophie'}
-                openModal={() => openModal('Sophie')}
-                closeModal={closeModal}
-                appElement={document.getElementById('root')}>
-                {t('projectsblock.sophie')}
-                
-            </Card>
-
-            <Card
-                cover={maqMenu}
-                id='Menu'
-                isOpen={isOpen && selectedCardId === 'Menu'}
-                openModal={() => openModal('Menu')}
-                closeModal={closeModal}
-                appElement={document.getElementById('root')}>
-                {t('projectsblock.menu1')} <br /> {t('projectsblock.menu2')}
-            </Card>
-
-            <Card
-                cover={maqNina}
-                id='Nina'
-                isOpen={isOpen && selectedCardId === 'Nina'}
-                openModal={() => openModal('Nina')}
-                closeModal={closeModal}
-                appElement={document.getElementById('root')}>
-                {t('projectsblock.nina1')} <br /> {t('projectsblock.nina2')}
-            </Card>
-
-            <Card
-                cover={maqKasa}
-                id='Kasa'
-                isOpen={isOpen && selectedCardId === 'Kasa'}
-                openModal={() => openModal('Kasa')}
-                closeModal={closeModal}
-                appElement={document.getElementById('root')}>
-                {t('projectsblock.kasa1')} <br /> {t('projectsblock.kasa2')}
-            </Card>
-
+        <div className='cards-list'>   
             <Card
                 cover={maqGrim}
                 id='Grim'
@@ -98,6 +46,52 @@ const Elementprojets = () => {
                 closeModal={closeModal}
                 appElement={document.getElementById('root')}>
                 {t('projectsblock.grim1')} <br /> {t('projectsblock.grim2')}
+                </Card>
+                <Card
+                cover={maqKasa}
+                id='Kasa'
+                isOpen={isOpen && selectedCardId === 'Kasa'}
+                openModal={() => openModal('Kasa')}
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
+                {t('projectsblock.kasa1')} <br /> {t('projectsblock.kasa2')}
+            </Card>
+                <Card
+                cover={maqSophie}
+                id='Sophie'
+                isOpen={isOpen && selectedCardId === 'Sophie'}
+                openModal={() => openModal('Sophie')}
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
+                {t('projectsblock.sophie')}                
+                </Card>
+                <Card
+                cover={maqNina}
+                id='Nina'
+                isOpen={isOpen && selectedCardId === 'Nina'}
+                openModal={() => openModal('Nina')}
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
+                {t('projectsblock.nina1')} <br /> {t('projectsblock.nina2')}
+            </Card>
+                <Card
+                cover={maqMenu}
+                id='Menu'
+                isOpen={isOpen && selectedCardId === 'Menu'}
+                openModal={() => openModal('Menu')}
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
+                {t('projectsblock.menu1')} <br /> {t('projectsblock.menu2')}
+            </Card>
+                <Card
+                cover={maqBooki}
+                id='Booki'
+                isOpen={isOpen && selectedCardId === 'Booki'}
+                openModal={() => openModal('Booki')}
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
+                {t('projectsblock.booki1')} <br /> {t('projectsblock.booki2')}
+                
             </Card>
 
                 {/* Intégration de chaque composant de modale avec les attributs pour leur ouverture et leur fermeture atitrés */}

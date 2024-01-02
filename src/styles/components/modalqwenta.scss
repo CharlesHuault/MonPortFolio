@@ -1,33 +1,36 @@
-.ReactModal__Overlay{
-    display: flex !important;
-    align-items: center !important;
-}
 
 #modal-qwenta {
     width: 80%;
     height: 82vh; 
     inset: 10% 10%!important;
-    background-color: #BBC3CE !important;
+    background-color: #FFF4E8 !important;
     scrollbar-width: none;
-    text-shadow: 1px 1px 2px  black;
+    text-shadow: 1px 0 1px  black;
     border-radius: 25px !important;
+    color: #4b2700;
+
     ::-webkit-scrollbar {
         display: none;
     }
     .addspace{
             margin-right: 10px;
+            font-size: 24px;
+            text-decoration: underline;
         }
     .modal-header{
         display: flex;
+        position: relative;
         
     
-        #Montageqwenta {
-            width: 60%;
+        #Maquetteqwenta {
+            width: 40%;
             height: auto;
+            border: 1px solid #4b2700;
+            box-shadow: 4px 4px rgba(75,39,0,0.5);
         }
 
         .qwenta-text {
-            width: 35%;
+            width: 55%;
             margin-left: 25px;
             padding-right: 25px;
             display: flex;
@@ -36,14 +39,25 @@
 
             h2{
                 text-align: center;
+                margin-bottom: 40px;
+                color: #4b2700;
             }
+             p{
+                font-size: 22px;
+                
+            }
+        }
+                h3{
+            text-align: center;
+            margin-top: 6%;
         }
 
         .tech-container {
             display: flex;
             margin-top: 10px;
-            width: 50%;
+            width: 60%;
             justify-content: space-around;
+            align-self: center;
 
             p {
               margin: 0;  
@@ -55,8 +69,7 @@
                 
                 img{
                     margin-top: 20px;
-                    margin-bottom: 17px;
-                    width: 48px;
+                    margin-bottom: 12px;
                 }              
             }
         }
@@ -68,7 +81,8 @@
             left: 96%;
             top: 2%;
             border: none;
-            background-color: #BBC3CE;
+            background-color: #FFF4E8;
+            color: #4b2700;
 
             #close-icon {
                 width: 100%;
@@ -76,43 +90,22 @@
             }
         }
     }
-
-    .modal-body{
-        display: flex;
-        margin-top: 15px; 
-        flex-direction: column;     
-        align-items: center;
-
-        h4{
-            margin-top: 30px;
-        }
-
-        img{
-            margin-top: 30px;
-            width: 90%;
-            border-radius: 5px;
-            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); 
-        }
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #modal-qwenta{
 
-        p{
-            font-size: 12px;
-        }
-
         .modal-header{
-            #Montageqwenta{
+            #Maquetteqwenta{
                 align-self: center;
-                height: 80%;
+                height: 100%;
             }
             .qwenta-text{
                 width: 45%;
                 margin-left: 10%;
                 h2{
                     margin-bottom: 20px;
+                    font-size: 28px;
                 }
             }
             .lienqwenta-container{
@@ -137,16 +130,6 @@
             }
         }
 
-   
-
-        .modal-body{
-            margin-top: 20px;
-
-            img{
-                width: 75%;
-            }
-
-        }
     }
 }
 
@@ -166,9 +149,6 @@
             flex-direction: column-reverse;
             align-items: center;
 
-            h3{
-                font-size: 12px;
-            }
 
             .qwenta-text{
                 width: 80%;
@@ -177,11 +157,11 @@
                 align-items: center;
                 h2{
                     margin-bottom: 20px;
-                    font-size: 18px;
+                    font-size: 28px;
                 }
             }
 
-            #Montageqwenta{
+            #Maquetteqwenta{
                 margin-top: 25px;
                 width: 80%;
             }
@@ -212,19 +192,5 @@
         }
 
    
-
-        .modal-body{
-            margin-top: 20px;
-            flex-direction: column;
-
-            h4{
-                font-size: 14px;
-            }
-
-            img{
-                width: 75%;
-            }
-
-        }
     }
 }

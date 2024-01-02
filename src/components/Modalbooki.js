@@ -26,7 +26,7 @@ const Modalbooki = ({ isOpen, closeModal }) => {
             <h2>{t('bookimodal.title')}</h2>
             <p><strong className='addspace'>{t('bookimodal.year')}</strong>2023</p>
           <p><strong className='addspace'>Contexte:</strong><br />{t('bookimodal.text1')}<br />{t('bookimodal.text2')}</p>
-          <p><strong className='addspace'>Réalisations:</strong><br />{t('bookimodal.text3')} <br />{t('bookimodal.text4')} <br />{t('bookimodal.text5')}</p>
+          <p><strong className='addspace'>Réalisations:</strong><br />{t('bookimodal.text3')} <br />{t('bookimodal.text4')} <br />{t('bookimodal.text5')}<br />{t('bookimodal.text6')}<br />{t('bookimodal.text7')}</p>
             <h3><strong className='addspace'>{t('bookimodal.tech')}</strong></h3>
           <div className='tech-container'>
             <div id='htmlbooki'><img src={logoHTML} alt="Logo Html" /><p>HTML</p></div>
