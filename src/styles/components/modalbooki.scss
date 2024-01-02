@@ -43,15 +43,18 @@
                 color: #4b2700;
             }
             p{
-                font-size: 20px;
+                font-size: 22px;
                 
             }
         }
-
+        h3{
+            text-align: center;
+            margin-top: 6%;
+        }
         .tech-container {
             display: flex;
             margin-top: 10px;
-            width: 35%;
+            width: auto;
             justify-content: space-around;
 
             p {
@@ -72,7 +75,7 @@
             left: 96%;
             top: 2%;
             border: none;
-            background-color: #BBC3CE;
+            background-color: #FFF4E8;
             color: #4b2700;
 
             #close-icon {
@@ -87,10 +90,11 @@
         margin-top: 15px;            
         .lienbooki-container{
             display: flex;
+            width: 100%;
             align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
-            margin-top: 8%; 
+            justify-content: center;
+            margin-top: 4%; 
+            gap: 5%;
             button {
                 margin-bottom: 4%;
                 position: relative;
