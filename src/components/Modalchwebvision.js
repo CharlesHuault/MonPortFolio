@@ -47,8 +47,8 @@ const Modalchwebvision = ({ isOpen, closeModal }) => {
         </div>
         <div className='modal-body'>         
             <div className='lienchw-container'>
-              <a href="https://charleshuault-kasa.netlify.app/" target="_blank" rel="noopener noreferrer"><button className='lienchw'>{t('chwmodal.link')}</button></a>
-              <a href="https://github.com/CharlesHuault/Kasa" target="_blank" rel="noopener noreferrer"><button className='lienchw'>{t('chwmodal.link2')}</button></a>
+              <a href="https://www.ch-webvision.fr/" target="_blank" rel="noopener noreferrer"><button className='lienchw'>{t('chwmodal.link')}</button></a>
+              <a href="https://github.com/CharlesHuault/ch-webvision" target="_blank" rel="noopener noreferrer"><button className='lienchw'>{t('chwmodal.link2')}</button></a>
             </div>
       </div>
     </ReactModal>

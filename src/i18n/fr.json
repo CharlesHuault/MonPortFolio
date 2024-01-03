@@ -45,7 +45,9 @@
         "grim1": "Backend d'une application de notation",
         "grim2": "de livres  pour une librairie",
         "chw1": "Site Vitrine pour mon auto-entreprise",
-        "chw2": "de création de sites web sur mesure"
+        "chw2": "de création de sites web sur mesure",
+        "sand1": "Site complet pour une coach nutritionniste",
+        "sand2": "réalisé avec ReactJs"
     },
 
     "footer": {
@@ -68,6 +70,23 @@
 
     "mainlinks": {
         "cv": "Mon CV"
+    },
+
+    "sandmodal":{
+        "title": "Site complet pour une coach Nutritionniste",
+        "year": "Année:",
+        "text1": "Projet réalisé en tant qu'auto-entrepreneur, développé en ReactJs",
+        "text2": "Création complète du site d'une coach nutritionniste, présentant son activité, ses produits et permettant à l'utilisateur de prendre rendez-vous",
+        "text3": "Initialiser une application avec Create React App",
+        "text4": "Configurer la navigation entre les pages de l'application avec React Router et ajout de liens externes vers les réseaux et la plateforme de vente pour les Ebooks",
+        "text5": "Développer des éléments de l'interface d'un site web grâce à des composants React",
+        "text6": "Utilisation d'API externes: Instagram pour l'intégration automatique des photos et Calendly pour le module de réservations de consultations",
+        "text7": "Utiliser les bonnes pratiques afin d'améliorer le SEO de l'application",
+        "text8": "Créer un formulaire de contact fonctionnel envoyant les données par mail avec EmailJs",
+        "text9": "Déployer l'application en ligne via OVHCloud",
+        "tech": "Technologies utilisées:",
+        "link": "Visitez le site",
+        "link2": "Voir le repositery Github"
     },
 
     "chwmodal":{

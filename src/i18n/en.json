@@ -49,7 +49,9 @@
         "grim1": "Backend of a book rating application",
         "grim2": "for a bookstore",
         "chw1": "Showcase site for my self-business",
-        "chw2": "of tailor-made websites creation"
+        "chw2": "of tailor-made websites creation",
+        "sand1": "Complete site for a nutritionist coach",
+        "sand2": "made with ReactJs"
     },
 
     "footer": {
@@ -72,6 +74,23 @@
 
     "mainlinks": {
         "cv": "My Resume"
+    },
+
+    "sandmodal":{
+        "title": "Complete site for a Nutritionist coach",
+        "year": "Year:",
+        "text1": "Project carried out as a self-employed person, developed in ReactJs",
+        "text2": "Complete creation of the site of a nutritionist coach, presenting her activity, her products and allowing the user to make an appointment",
+        "text3": "Initialize an app with Create React App",
+        "text4": "Configure navigation between application pages with React Router and add external links to socials and the sales platform for Ebooks",
+        "text5": "Develop website interface elements using React components",
+        "text6": "Use of external APIs: Instagram for automatic integration of photos and Calendly for the consultation reservations module",
+        "text7": "Use best practices to improve the SEO of the application",
+        "text8": "Create a functional contact form sending data by email with EmailJs",
+        "text9": "Deploy the application online via OVHCloud",
+        "tech": "Technologies used:",
+        "link": "Visit the website",
+        "link2": "See the Github repositery"
     },
         "chwmodal":{
         "title": "Showcase site for CH-WebVision, the self-business created for my secondary activity",
