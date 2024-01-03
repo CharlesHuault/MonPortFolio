@@ -48,7 +48,6 @@ const Modalchwebvision = ({ isOpen, closeModal }) => {
         <div className='modal-body'>         
             <div className='liensand-container'>
               <a href="https://www.sandralagouarde.com/" target="_blank" rel="noopener noreferrer"><button className='liensand'>{t('sandmodal.link')}</button></a>
-              <a href="https://github.com/CharlesHuault/Sandra-nutricoach" target="_blank" rel="noopener noreferrer"><button className='liensand'>{t('sandmodal.link2')}</button></a>
             </div>
       </div>
     </ReactModal>
