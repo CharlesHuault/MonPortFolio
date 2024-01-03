@@ -1,6 +1,6 @@
 .cards-list-container {
     position: relative;
-    height: 1600px;
+    height: auto;
 
     #a-propos {
         position: absolute;
@@ -17,7 +17,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cards-list-container{
-        height: 1100px;
 
         #a-propos{
             bottom: 1%;

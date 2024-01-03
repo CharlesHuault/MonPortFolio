@@ -1,7 +1,7 @@
 .card {
     position: relative;
     width: 42%;
-    height: 30%;    
+    height: 500px;    
     margin-top: 30px;
     margin-right: 2%;
     margin-left: 2%;
@@ -57,13 +57,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cardtext{
-        font-size: 14px;
+        font-size: 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cardtext{
-        font-size: 18px;
+        font-size: 24px;
         color: white;
         opacity: 1;
         text-shadow: 1px 1px 2px black; 
@@ -71,7 +71,6 @@
     }
     .card {
         width: 75%;
-        height: 550px;
         
         &:before {
             background-color: rgba(62, 147, 115, 0.6);

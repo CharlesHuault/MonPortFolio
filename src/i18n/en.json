@@ -47,7 +47,9 @@
         "kasa1": "Creation of the ReactJs application for",
         "kasa2": "a real estate rental agency",
         "grim1": "Backend of a book rating application",
-        "grim2": "for a bookstore"
+        "grim2": "for a bookstore",
+        "chw1": "Showcase site for my self-business",
+        "chw2": "of tailor-made websites creation"
     },
 
     "footer": {
@@ -71,7 +73,22 @@
     "mainlinks": {
         "cv": "My Resume"
     },
-    
+        "chwmodal":{
+        "title": "Showcase site for CH-WebVision, the self-business created for my secondary activity",
+        "year": "Year:",
+        "text1": "Project carried out with the aim of presenting my activity and serving as a showcase and portfolio for my self-business",
+        "text2": "Development of the application in ReactJs",
+        "text3": "Initialize an app with Create React App",
+        "text4": "Develop website interface elements using React components",
+        "text5": "Using Sass for styling and animations",
+        "text6": "Use best practices to improve the SEO of the application",
+        "text7": "Create a functional contact form sending data by email with EmailJs",
+        "text8": "Deploy the application online via OVHCloud",
+        "tech": "Technologies used:",
+        "link": "Visit the website",
+        "link2": "See the Github repositery"
+    },
+
     "bookimodal": {
         "title": "Frontend of the 'Booki' website",
         "year": "Year:",
