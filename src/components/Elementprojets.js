@@ -56,15 +56,7 @@ const Elementprojets = () => {
                 appElement={document.getElementById('root')}>
                 {t('projectsblock.kasa1')} <br /> {t('projectsblock.kasa2')}
             </Card>
-                <Card
-                cover={maqSophie}
-                id='Sophie'
-                isOpen={isOpen && selectedCardId === 'Sophie'}
-                openModal={() => openModal('Sophie')}
-                closeModal={closeModal}
-                appElement={document.getElementById('root')}>
-                {t('projectsblock.sophie')}                
-                </Card>
+
                 <Card
                 cover={maqNina}
                 id='Nina'
@@ -82,7 +74,16 @@ const Elementprojets = () => {
                 closeModal={closeModal}
                 appElement={document.getElementById('root')}>
                 {t('projectsblock.menu1')} <br /> {t('projectsblock.menu2')}
-            </Card>
+                </Card>
+                <Card
+                cover={maqSophie}
+                id='Sophie'
+                isOpen={isOpen && selectedCardId === 'Sophie'}
+                openModal={() => openModal('Sophie')}
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
+                {t('projectsblock.sophie')}                
+                </Card>
                 <Card
                 cover={maqBooki}
                 id='Booki'

@@ -80,10 +80,7 @@
         "text7": "Installer un environnement de développement front-end",
         "tech": "Technologies utilisées:",
         "link": "Visitez le site",
-        "link2": "Voir le repositery Github",
-        "img1": "Version desktop",
-        "img2": "Version Tablette",
-        "img3": "Version Mobile"
+        "link2": "Voir le repositery Github"
     },
     
     "grimmodal":{
@@ -91,14 +88,13 @@
         "year": "Année:",
         "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
         "text2": "Création du backend d'une application de notations de livres.",
-        "text3": "Mise en place d'une base de données pour stocker les identifiants des usagers et les données qu'ils peuvent poster: l'ajout d'un livre et ses informations et la possibilité de noter un :livre posté par un autre utilisateur.",
+        "text3": "Mise en place d'une base de données pour stocker les identifiants des usagers et les données qu'ils peuvent poster : l'ajout d'un livre et ses informations et la possibilité de noter un livre posté par un autre utilisateur.",
         "text4": "Création de l'API communiquant entre la base de données créée et l'application frontend fournie pour le projet",
+        "text5": "Implémenter un modèle logique de données conformément à la réglementation",
+        "text6": "Mettre en œuvre des opérations CRUD de manière sécurisée",
+        "text7": "Stocker des données de manière sécurisée",
         "tech": "Technologies utilisées:",
-        "link": "Voir le repositery Github",
-        "img1": "Page d'accueil affichant tous les livres ajoutés par les utilisateurs",
-        "img2": "Page affichant un livre en particulier ajouté par un utilisateur",
-        "img3": "Page avec le formulaire permettant à un utilisateur de créer un nouveau livre",
-        "img4": "Page permettant de créer un compte utilisateur ou se connecter si on en possède déjà un"
+        "link": "Voir le repositery Github"
     },
     
     "kasamodal":{
@@ -106,14 +102,14 @@
         "year": "Année:",
         "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
         "text2": "Développement de l'application en ReactJs pour Kasa, site de location de logements entre particuliers",
-        "text3": "Le contenu est intégré dynamiquement à partir d'un fichier JSON contenant une liste de données pour tous les logements",
-        "text4": "Le style contient des animations et est écrit en Sass",
+        "text3": "Intégrer le contenu dynamiquement à partir d'un fichier JSON contenant une liste de données pour tous les logements",
+        "text4": "Utilisation de Sass pour le style, ajout d'animations",
+        "text5": "Configurer la navigation entre les pages de l'application avec React Router",
+        "text6": "Initialiser une application avec Create React App",
+        "text7": "Développer des éléments de l'interface d'un site web grâce à des composants React",
         "tech": "Technologies utilisées:",
         "link": "Visitez le site",
-        "link2": "Voir le repositery Github",
-        "img1": "Page d'accueil",
-        "img2": "Page d'un logement",
-        "img3": "Page A propos"
+        "link2": "Voir le repositery Github"
     },
     
     "ninamodal":{
@@ -121,11 +117,12 @@
         "year": "Année:",
         "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
         "text2": "L'objectif de ce projet est de découvrir le concept du SEO et apprendre à en maîtriser les bases mais surtout à appliquer les modifications nécessaires à son amélioration au niveau technique",
+        "text3": "Optimiser les performances d’un site web",
+        "text4": "Débugger un site web grâce aux Chrome DevTools",
+        "text5": "Rédiger un cahier de recette pour tester un site",
         "tech": "Technologies utilisées:",
         "link1": "Visitez le site optimisé",
-        "link2": "Voir le repositery Github",
-        "img1": "Rapport Lighthouse après optimisations",
-        "img2": "Rapport Wave avant et après optimisations"
+        "link2": "Voir le repositery Github"
     },
     
     "qwentamodal":{
@@ -138,10 +135,7 @@
         "text5": "Découper une fonctionnalités en tâches pour préparer le développement",
         "text6": "Présenter la solution technique",
         "text7": "Mettre en place une méthode de veille technologique",
-        "tech": "Technologies utilisées:",
-        "img1": "Outil de gestion de projet Trello",
-        "img2": "Outil de veille Wakelet",
-        "img3": "Document de spécifications techniques"
+        "tech": "Technologies utilisées:"
     },
     
     "sophiemodal":{
@@ -149,15 +143,14 @@
         "year": "Année:",
         "text1": "Projet réalisé dans le cadre de la formation Openclassrooms 'Développeur intégrateur web'",
         "text2": "Développement de la page de connexion 'from scratch' et de l'aspect dynamique d'un portfolio d'architecte d'intérieur en lien avec l'API fournie pour le projet.",
-        "text3": "L'objectif était triple:",
-        "text4": "Afficher tous les projets correspondants aux données de l'API de manière dynamique sur la page d'accueil",
-        "text5": "Pouvoir se connecter en tant qu'administrateur avec les identifiants correspondants dans l'API",
-        "text6": "Créer une modale permettant en tant qu'administrateur d'ajouter et supprimer des éléments de projets dans l'API",
+        "text3": "Afficher tous les projets correspondants aux données de l'API de manière dynamique sur la page d'accueil",
+        "text4": "Pouvoir se connecter en tant qu'administrateur avec les identifiants correspondants dans l'API",
+        "text5": "Créer une modale permettant en tant qu'administrateur d'ajouter et supprimer des éléments de projets dans l'API",
+        "text6": "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+        "text7": "Manipuler les éléments du DOM avec JavaScript",
+        "text8": "Gérer les événements utilisateurs avec JavaScript",
         "tech": "Technologies utilisées:",
-        "link1": "Voir le repositery Github",
-        "img1": "Page d'accueil",
-        "img2": "Page de Connexion",
-        "img3": "Modale d'ajout de projet"
+        "link1": "Voir le repositery Github"
     },
 
     "monotext" :{

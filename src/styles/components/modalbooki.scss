@@ -1,5 +1,6 @@
 #modal-booki {    
     width: 80%;
+    max-width: 1440px!important;
     height: 82vh; 
     inset: 10% 10%!important;
     background-color: #FFF4E8 !important;
@@ -188,9 +189,7 @@
             flex-direction: column-reverse;
             align-items: center;
 
-            h3{
-                font-size: 12px;
-            }
+
             .booki-text{
                 width: 80%;
                 margin-left: 5%;

@@ -77,12 +77,12 @@
         "year": "Year:",
         "text1": "Project carried out as part of the Openclassrooms class 'Web developer integrator'",
         "text2": "Development of the responsive Frontend of a vacation rental website",
+         "text3": "Integrate content according to a layout with HTML and CSS",
+        "text4": "Implement a responsive interface with HTML and CSS",
+        "text5": "Establish a work environment appropriate for development",
         "tech": "Technologies used:",
         "link": "Visit the website",
-        "link2": "See the Github repositery",
-        "img1": "Desktop Version",
-        "img2": "Tablet Version",
-        "img3": "Mobile Version"
+        "link2": "See the Github repositery"
     },
     
     "grimmodal":{
@@ -92,12 +92,11 @@
         "text2": "Creation of the backend of a book ratings application.",
         "text3": "Setting up a database to store user identifiers and the data they can post: adding a book and its information and the possibility of rating a book posted by another user.",
         "text4": "Creation of the API communicating between the database created and the frontend application provided for the project",
+        "text5": "Implement a logical data model in accordance with regulations",
+        "text6": "Implement CRUD operations securely",
+        "text7": "Store data securely",
         "tech": "Technologies used:",
-        "link": "See the Github repositery",
-        "img1": "Homepage showing all books added by users",
-        "img2": "Page displaying a particular book added by a user",
-        "img3": "Page with the form allowing a user to create a new book",
-        "img4": "Page allowing you to create a user account or log in if you already have one"
+        "link": "See the Github repositery"
     },
     
     "kasamodal":{
@@ -105,13 +104,13 @@
         "year": "Year:",
         "text1": "Project carried out as part of the Openclassrooms class 'Web developer integrator'",
         "text2": "Development of the application in ReactJs for Kasa, housing rental site between individuals",
-        "text3": "The content is dynamically integrated from a JSON file containing a list of data for all accommodations",
-        "text4": "The style contains animations and is written in Sass",
+        "text3": "Integrate content dynamically from a JSON file containing a list of data for all slots",
+        "text4": "Using Sass for styling and adding animations",
+        "text5": "Configure navigation between application pages with React Router",
+        "text6": "Initialize an app with Create React App",
+        "text7": "Develop website interface elements using React components",
         "tech": "Technologies used:",
-        "link": "See the Github repositery",
-        "img1": "Homepage",
-        "img2": "Page of an individual house",
-        "img3": "About page"
+        "link": "See the Github repositery"
     },
     
     "ninamodal":{
@@ -119,11 +118,12 @@
         "year": "Year:",
         "text1": "Project carried out as part of the Openclassrooms class 'Web developer integrator'",
         "text2": "The objective of this project is to discover the concept of SEO and learn to master the basics but above all to apply the modifications necessary for its improvement at the technical level.",
+        "text3": "Optimize the performances of a website",
+        "text4": "Debug a website using Chrome DevTools",
+        "text5": "Write a recipe book to test a site",
         "tech": "Technologies used:",
         "link1": "Visit the optimised website",
-        "link2": "See the Github repositery",
-        "img1": "Lighthouse report after optimizations",
-        "img2": "Wave report before and after optimizations"
+        "link2": "See the Github repositery"
     },
     
     "qwentamodal":{
@@ -131,11 +131,12 @@
         "year": "Year:",
         "text1": "Project carried out as part of the Openclassrooms class 'Web developer integrator'",
         "text2": "Project management simulation in creating an application called MenuMaker ",
-        "text3": "The focus of this project is to have an initial familiarization with project management methods, documents and tools in order to become familiar with these elements.",
-        "tech": "Technologies used:",
-        "img1": "Trello project management tool",
-        "img2": "Wakelet monitoring tool",
-        "img3": "Technical specifications document"
+        "text3": "Monitor the progress of the project using a project management tool",
+        "text4": "Write the technical specifications of a web project based on functional needs",
+        "text5": "Break a feature into tasks to prepare for development",
+        "text6": "Present the technical solution",
+        "text7": "Implement a technology monitoring method",
+        "tech": "Technologies used:"
     },
     
     "sophiemodal":{
@@ -143,15 +144,14 @@
         "year": "Year:",
         "text1": "Project carried out as part of the Openclassrooms class 'Web developer integrator'",
         "text2": "Development of the 'from scratch' login page and the dynamic aspect of an interior designer portfolio in connection with the API provided for the project.",
-        "text3": "The objective was threefold:",
-        "text4": "Show all projects matching API data dynamically on the home page",
-        "text5": "Be able to log in as administrator with the corresponding credentials in the API",
-        "text6": "Create a modal allowing as an administrator to add and remove project elements in the API",
+        "text3": "Show all projects matching API data dynamically on the home page",
+        "text4": "Be able to log in as administrator with the corresponding credentials in the API",
+        "text5": "Create a modal allowing as an administrator to add and remove project elements in the API",
+        "text6": "Retrieve user data in JavaScript via forms",
+        "text7": "Manipulate DOM elements with JavaScript",
+        "text8": "Handle user events with JavaScript",
         "tech": "Technologies used:",
-        "link1": "See the Github repositery",
-        "img1": "Homepage",
-        "img2": "Login Page",
-        "img3": "Modal for adding projects"
+        "link1": "See the Github repositery"
     },
 
     "monotext" :{
