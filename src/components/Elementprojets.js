@@ -9,6 +9,7 @@ import maqNina from '../assets/img/MaqDeskNina.png'
 import maqKasa from '../assets/img/MaqDeskKasa.png'
 import maqGrim from '../assets/img/MaqDeskGrim.png'
 import screenCHWebvision from '../assets/img/screenchwebvision.png'
+import screenCHWebvisionv2 from '../assets/img/screenchwebvisionv2.png'
 import screenSandra from '../assets/img/screensandranutri.png'
 import Modalbooki from './Modalbooki';
 import Modalsophie from './Modalsophie';
@@ -17,7 +18,8 @@ import Modalnina from './Modalnina';
 import Modalkasa from './Modalkasa';
 import Modalgrim from './Modalgrim';
 import Modalchwebvision from './Modalchwebvision';
-import Modalsandra from './Modalsandranutri'
+import Modalsandra from './Modalsandranutri';
+import Modalchwebvisionv2 from './Modalchwebvisionv2';
 
 // Composant contenant les cards et les modales des projets à mettre en avant
 const Elementprojets = () => {
@@ -42,6 +44,15 @@ const Elementprojets = () => {
     // Création de chaque Card de projet, en injectant l'image de fond et le texte dans le pattern du composant ainsi que les fonctions d'ouverture et fermeture de modale
         <div className='cards-list-container'>
         <div className='cards-list'>  
+                 <Card
+                cover={screenCHWebvisionv2}
+                id='CHWebvisionv2'
+                isOpen={isOpen && selectedCardId === 'CHWebvisionv2'}
+                openModal={() => openModal('CHWebvisionv2')}
+                closeModal={closeModal}
+                appElement={document.getElementById('root')}>
+                {t('projectsblock.chw3')} <br /> {t('projectsblock.chw4')}
+                </Card>
         <Card
                 cover={screenSandra}
                 id='SandraNutri'
@@ -126,6 +137,7 @@ const Elementprojets = () => {
               <Modalgrim isOpen={isOpen && selectedCardId === 'Grim'} closeModal={closeModal} />
           <Modalchwebvision isOpen={isOpen && selectedCardId === 'CHWebvision'} closeModal={closeModal} />
           <Modalsandra isOpen={isOpen && selectedCardId === 'SandraNutri'} closeModal={closeModal} />
+          <Modalchwebvisionv2 isOpen={isOpen && selectedCardId === 'CHWebvisionv2'} closeModal={closeModal} />
             </div>
             <div id='a-propos'></div>
     </div>

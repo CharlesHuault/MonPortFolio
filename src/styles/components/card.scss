@@ -8,7 +8,7 @@
     border-radius: 10px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); 
     overflow: hidden; 
-
+    cursor: pointer;
 
    &:before {
         content: "";
@@ -20,7 +20,8 @@
     }
 
     &:hover::before {
-        background-color: rgba(62, 147, 115, 0.6);
+        background-color: rgba(62, 147, 115, 0.8);
+        
 
     } 
 }
@@ -41,7 +42,7 @@
     &:hover{
         color: white;
         opacity: 1;
-        text-shadow: 1px 1px 2px  black;
+        text-shadow: 3px 3px 0px  black;
     }
 }
 

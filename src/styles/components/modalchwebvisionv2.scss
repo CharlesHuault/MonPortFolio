@@ -1,0 +1,264 @@
+#modal-chw {
+    width: 80%;
+      max-width: 1440px!important;
+    height: 82vh; 
+    inset: 10% 10%!important;
+    background-color: #FFF4E8 !important;
+    scrollbar-width: none;
+    text-shadow: 1px 0 1px  black;
+    border-radius: 25px !important;
+     color: #4b2700;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .addspace{
+            margin-right: 10px;
+                        font-size: 24px;
+            text-decoration: underline;
+        }
+
+    .modal-header{
+        display: flex;
+        position: relative;
+        align-items: center;
+        height: auto;
+
+        .Screenchw-container{
+            width: 40%;
+            max-height: 900px;
+            overflow: hidden;            
+            border: 1px solid #4b2700;
+            box-shadow: 4px 4px rgba(75,39,0,0.5);
+        #Screenchw {            
+            width: 100%;
+            height: auto;
+        }}
+
+        .chw-text {
+            width: 55%;
+            margin-left: 25px;
+            padding-right: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center ;
+            
+
+            h2{
+                text-align: center;
+                                margin-bottom: 40px;
+                color: #4b2700;
+            }
+                        p{
+                font-size: 22px;
+                
+            }
+        }
+                h3{
+            text-align: center;
+            margin-top: 6%;
+        }
+
+        .tech-container {
+            display: flex;
+            margin-top: 10px;
+            width: 80%;
+            justify-content: space-around;
+                        align-self: center;
+                        gap: 2%;
+                        flex-wrap: wrap;
+                .logo-tech-container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    img{
+                        width: 48px;
+                    }
+                }
+            p {
+              margin: 0;  
+              text-align: center;
+            }
+
+
+        }
+
+        
+
+        button {
+            width: 24px;
+            height: 18px;
+            position: absolute;
+            left: 96%;
+            top: 2%;
+            border: none;
+            background-color: #FFF4E8;
+            color: #4b2700;
+
+            #close-icon {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .modal-body{
+        display: flex;
+        margin-top: 15px; 
+
+.lienchw-container{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2%; 
+            gap: 5%;
+
+            .lienchw {
+                margin-bottom: 4%;
+                font-size: 18px;
+                width: 230px;
+                height: 35px;
+                position: relative;
+                left: 0%;            
+                text-decoration: none;
+            background-color: #FFF4E8;
+                border-radius: 15px;
+            border: 1px solid #4b2700;
+            box-shadow: 4px 4px rgba(75,39,0,0.5);
+                transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+
+                &:hover{
+                    background-color: #ffe1c1;
+                    transform: scale(1.10);
+                    cursor: pointer;
+                }
+            }
+        } 
+       
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #modal-chw{
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            .chw-text{
+                width: 45%;
+                margin-left: 10%;
+                h2{
+                    margin-bottom: 20px;
+                    font-size: 28px;
+                }
+            }
+
+        .Screenchw-container{
+            width: 45%;
+            height: auto;
+}
+            .lienchw-container{
+                #lienchw{
+                    font-size: 14px;
+                    width: 180px;
+                    height: 25px;
+                    border-radius: 10px;
+                }
+            }
+            .tech-container{
+                width: 100%;
+                img{
+                    width: 32px;
+                }
+
+                #sasschw img{
+                    width: 32px;
+                }
+            }
+        }
+
+        
+
+        .modal-body{
+            margin-top: 20px
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #modal-chw{
+        padding: 20px 0px !important;
+        margin-top: 20px;
+        inset: 40px 40px 10px !important;
+        
+        
+
+        p{
+            font-size: 12px;
+        }
+
+        .modal-header{
+            flex-direction: column-reverse;
+            align-items: center;
+
+
+            .chw-text{
+                width: 80%;
+                margin-left: 5%;
+                text-align: center;
+                align-items: center;
+                h2{
+                    margin-bottom: 20px;
+                    font-size: 28px;
+                }
+            }
+
+
+        .Screenchw-container{
+            margin-top: 25px;
+            width: 65%;
+            height: auto;
+}
+
+            .tech-container{
+                width: 95%;
+                justify-content: space-around;
+
+                img{
+                    width: 24px;
+                }
+
+                #sasschw img{
+                    width: 24px;
+                }
+            }
+            button{
+                left: 90%;
+            }
+        }
+
+        
+
+        .modal-body{
+            margin-top: 20px;
+
+            .lienchw-container{
+                flex-direction: column;
+                button{
+                    font-size: 20px;
+                    width: 250px;
+                    height: auto;
+                    border-radius: 10px;
+                }
+            }
+
+
+        }
+    }
+}

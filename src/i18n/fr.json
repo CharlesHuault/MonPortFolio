@@ -44,8 +44,10 @@
         "kasa2": "d'une agence de location immobilière",
         "grim1": "Backend d'une application de notation",
         "grim2": "de livres  pour une librairie",
-        "chw1": "Site Vitrine pour mon auto-entreprise",
+        "chw1": "Version 1 du site vitrine pour mon auto-entreprise",
         "chw2": "de création de sites web sur mesure",
+        "chw3": "Version actuelle du site vitrine de mon ",
+        "chw4": "auto-entreprise de création de sites web",
         "sand1": "Site complet pour une coach nutritionniste",
         "sand2": "réalisé avec ReactJs"
     },
@@ -72,6 +74,19 @@
         "cv": "Mon CV"
     },
 
+        "chwmodalv2":{
+        "title": "Version actuelle du Site Vitrine pour CH-WebVision, auto-entreprise créée comme activité secondaire",
+        "year": "Année:",
+        "text1": "Version actuelle du projet visant à présenter mon activité et de servir de vitrine et portfolio à mon auto-entreprise",
+        "text2": "Développement de l'application avec Wordpress",
+        "text3": "Premier projet réalisé avec le CMS Wordpress",
+        "text4": "Utilisation de nombreux plugins pour sa création",
+        "text5": "Déployer sur OVHCloud un site Wordpress créé en local",
+        "tech": "Technologies utilisées:",
+        "link": "Visitez le site",
+        "link2": "Voir le repositery Github"
+    },
+
     "sandmodal":{
         "title": "Site complet pour une coach Nutritionniste",
         "year": "Année:",
@@ -92,7 +107,7 @@
     "chwmodal":{
         "title": "Site Vitrine pour CH-WebVision, l'auto-entreprise créée pour mon activité secondaire",
         "year": "Année:",
-        "text1": "Projet réalisé dans le but de présenter mon activité et de servir de vitrine et portfolio à mon auto-entreprise",
+        "text1": "Première version du projet visant à présenter mon activité et de servir de vitrine et portfolio à mon auto-entreprise",
         "text2": "Développement de l'application en ReactJs",
         "text3": "Initialiser une application avec Create React App",
         "text4": "Développer des éléments de l'interface d'un site web grâce à des composants React",
