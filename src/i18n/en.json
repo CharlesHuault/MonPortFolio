@@ -83,6 +83,7 @@
         "text2": "Website development with Wordpress",
         "text3": "First project carried out with the Wordpress CMS",
         "text4": "Use of numerous plugins for its creation",
+        "text5": "Deploy a locally created Wordpress site on OVHCloud",
         "tech": "Technologies used:",
         "link": "Visit the website",
         "link2": "See the Github repositery"
